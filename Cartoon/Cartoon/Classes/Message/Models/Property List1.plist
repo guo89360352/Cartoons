@@ -1,0 +1,11 @@
+{
+code = 1;
+error = "\U8bf7\U68c0\U67e5 r= \U53c2\U6570";
+extraInfo =     (
+);
+params =     {
+"REQUEST_METHOD" = GET;
+};
+results =     (
+);
+}

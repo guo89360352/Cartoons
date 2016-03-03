@@ -22,7 +22,55 @@
     
     self.tabBC = [[UITabBarController alloc] init];
     
+    //资讯
+    UIStoryboard *messageStory = [UIStoryboard storyboardWithName:@"Message" bundle:nil];
+    UINavigationController *mesageNav= [[UINavigationController alloc] init];
+   mesageNav = messageStory.instantiateInitialViewController;
+    mesageNav.tabBarItem.image = [UIImage imageNamed:@"mengwo_new2"];
+    UIImage *messageSec = [UIImage imageNamed:@"mengwo_new1"];
+    mesageNav.tabBarItem.title = @"资讯";
+    mesageNav.tabBarItem.selectedImage = [messageSec imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     
+    mesageNav.tabBarItem.imageInsets = UIEdgeInsetsMake(6, 0, -6, 0);
+    
+    //漫画
+    
+    UIStoryboard *cartoonStory = [UIStoryboard storyboardWithName:@"Cartoon" bundle:nil];
+    UINavigationController *cartoonNav= cartoonStory.instantiateInitialViewController;
+    cartoonNav.tabBarItem.image = [UIImage imageNamed:@"mengwo_new2"];
+    UIImage *cartoonSec = [UIImage imageNamed:@"mengwo_new1"];
+    cartoonNav.tabBarItem.title = @"漫画";
+    cartoonNav.tabBarItem.selectedImage = [cartoonSec imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    
+    cartoonNav.tabBarItem.imageInsets = UIEdgeInsetsMake(6, 0, -6, 0);
+    
+    //美图
+    
+    UIStoryboard *prettyStory = [UIStoryboard storyboardWithName:@"PrettyPictures" bundle:nil];
+     UINavigationController *prettyNAV = prettyStory.instantiateInitialViewController;
+    prettyNAV.tabBarItem.image = [UIImage imageNamed:@"mengwo_new2"];
+    UIImage *prettySec = [UIImage imageNamed:@"mengwo_new1"];
+    prettyNAV.tabBarItem.title = @"美图";
+  prettyNAV.tabBarItem.selectedImage = [prettySec imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    
+    prettyNAV.tabBarItem.imageInsets = UIEdgeInsetsMake(6, 0, -6, 0);
+    
+    
+    
+    //我的
+    
+    UIStoryboard *mineStro = [UIStoryboard storyboardWithName:@"Mine" bundle:nil];
+    
+    UINavigationController *mineNAV = mineStro.instantiateInitialViewController;
+    mineNAV.tabBarItem.image = [UIImage imageNamed:@"mengwo_new2"];
+    mineNAV.tabBarItem.imageInsets = UIEdgeInsetsMake(6, 0, -6, 0);
+    mineNAV.tabBarItem.title = @"我的";
+    UIImage *minesec =[UIImage imageNamed:@"mengwo_new1"];
+    mineNAV.tabBarItem.selectedImage = [minesec imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    
+    //添加被管理的视图控制器
+    self.tabBC.viewControllers = @[mesageNav,cartoonNav,prettyNAV,mineNAV];
+    self.window.rootViewController = self.tabBC;
     
     
     self.window.backgroundColor = [UIColor whiteColor];

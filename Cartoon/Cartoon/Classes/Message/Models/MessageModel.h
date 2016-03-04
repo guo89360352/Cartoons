@@ -28,6 +28,10 @@
 @property (strong, nonatomic) NSString *creatTime;
 @property (strong, nonatomic) NSString *creatTimeValue;
 @property (strong, nonatomic) NSString *rType;
+@property (strong, nonatomic) NSDictionary *messageinfo;
+@property (strong, nonatomic) NSString *images;
+
+@property (strong, nonatomic) NSString *content;
 
 
 -(instancetype)initWithDictionary:(NSDictionary *)dic rType:(NSString *)rtype;

@@ -2,7 +2,7 @@
 code = 0;
 error = "";
 extraInfo =     {
-countTotal = 6;
+countTotal = 7;
 };
 params =     {
 "REQUEST_METHOD" = GET;
@@ -13,105 +13,389 @@ size = 999;
 };
 results =     (
 {
-adImageLogCount = 55;
-adminID = 49664;
-beginTime = "2016-03-03 12:00:32";
+adImageLogCount = 47;
+adminID = 41838;
+beginTime = "2016-03-04 12:00:00";
 clientType = "3,4";
 content = "";
-createTime = "2016-03-03 11:55:12";
+createTime = "2016-03-03 16:48:10";
 customPosition = 1;
 customType = 1;
-customValue = 17453;
+customValue = 17530;
 duration = 0;
-endTime = "2016-03-04 11:55:32";
-id = 1250;
-images = "http://7xkbpd.com2.z0.glb.qiniucdn.com/0166d58e8b06084d12d47b421ebd097f_253145.jpeg";
+endTime = "2016-03-08 18:00:00";
+id = 1254;
+images = "http://7xkbpd.com2.z0.glb.qiniucdn.com/188b9393c5aa73cd4721d5387a21d246_46577.jpeg";
 messageinfo =             {
-author = "\U80d6\U6b21\U83cc";
+author = "\U4e94\U91d1\U5e97\U6495\U903c\U5c0f\U80fd\U624b";
 bad = 0;
-content = "<span style=\"font-family:Microsoft YaHei;font-size:16px;\">\U3010\U58f0\U4f18\U9ad8\U6865\U674e\U4f9d\U518d\U6b21\U8d70\U5149\U3011</span><br />
-\n<span style=\"font-family:Microsoft YaHei;font-size:16px;\">\U8fd9\U5e74\U5934\U8d70\U5149\U4e5f\U662f\U6709\U60ef\U6027\U7684\Uff0c\U81ea\U4ece\U4e0a\U6b21\U76f4\U64ad\U9ad8\U6865\U674e\U4f9d\U56e0\U4e3a\U62b1\U7740\U5154\U5b50\U73a9\U5076\U4e0d\U5c0f\U5fc3\U628a\U88d9\U6446\U5377\U8d77\U6765\U5bfc\U81f4\U5185\U88e4\U8d70\U5149\U88ab\U5e7f\U5927\U7ec5\U58eb\U6ce8\U76ee\U540e\Uff0c\U8fd9\U56de\U4eba\U5bb6\U9009\U62e9\U8ba9\U4e0a\U9762\U8d70\U5149\U3002\U5728\U6628\U5929\U7684\U76f4\U64ad\U6d3b\U52a8\U4e2d\Uff0c\U9ad8\U6865\U674e\U4f9d\U53c8\U8d70\U5149\U4e86\Uff0c\U4f46\U662f\U56e0\U4e3a\U76f4\U64ad\U753b\U8d28\U95ee\U9898\Uff0c\U5bfc\U81f4\U8fd9\U6b21\U8d70\U5149\U81ea\U5e26\U9a6c\U8d5b\U514b\U3002</span><br />
-\n<div align=\"center\">
-    \n\t<img src=\"http://7xkbpd.com2.z0.glb.qiniucdn.com/26814f2173c54e5b4b77d677d67910e1_182562.png\" alt=\"\" /><br />
+content = "<p style=\"text-align:center;\">
+    \n\t<span style=\"color:#333333;font-family:'Microsoft YaHei';font-size:16px;\">\U89c2\U4f17\U59e5\U7237\U4eec\U5927\U5bb6\U7334\Uff01</span>
+    \n</p>
+\n<p style=\"text-align:center;\">
+    \n\t<span style=\"color:#333333;font-family:'Microsoft YaHei';font-size:16px;\">\U4e00\U5468\U4e00\U6b21\U7684<span style=\"color:#E53333;\"><strong>\U62bd</strong></span><span style=\"color:#E53333;\"><strong>\U5956\U6d3b\U52a8</strong></span>\U53c8TM\U6765\U4e86\Uff01</span>
+    \n</p>
+\n<p style=\"text-align:center;\">
+    \n\t<span style=\"color:#333333;font-family:'Microsoft YaHei';font-size:16px;\">\U51c6\U5907\U597d\U63a5\U62db\U4e86\U4e48\Uff01</span>
+    \n</p>
+\n<p style=\"text-align:center;\">
+    \n\t<img src=\"http://7xkbpd.com2.z0.glb.qiniucdn.com/290a97c5fe024729d033d873f98009b0_86168.jpeg\" alt=\"\" />
+    \n</p>
+\n<p style=\"text-align:center;\">
+    \n\t<br />
+    \n</p>
+\n<p style=\"text-align:center;\">
+    \n\t<span style=\"font-family:'Microsoft YaHei';font-size:16px;\">\U81f3\U6b64\U4e09\U516b<span style=\"color:#E53333;\"><strong>\U5987\U5973\U8282</strong></span>\U6765\U4e34\U4e4b\U9645\Uff01</span>
+    \n</p>
+\n<p style=\"text-align:center;\">
+    \n\t<span style=\"font-family:'Microsoft YaHei';font-size:16px;\"><br />
+        \n</span>
+    \n</p>
+\n<p style=\"text-align:center;\">
+    \n\t<span><span style=\"font-size:16px;line-height:24px;\">\U603b\U5f97\U641e\U4e2a\U8ddf\U5987\U5973\U6709\U5173\U7684\U6d3b\U52a8\U554a\U5582~~~</span></span>
+    \n</p>
+\n<p style=\"text-align:center;\">
+    \n\t<span><span style=\"font-size:16px;line-height:24px;\"><br />
+        \n</span></span>
+    \n</p>
+\n<p style=\"text-align:center;\">
+    \n\t<span style=\"font-family:'Microsoft YaHei';font-size:16px;\">\Uff08\U867d\U7136\U8ddf\U5404\U4f4d\U5c0f\U670b\U53cb\U4eec<span style=\"color:#E53333;\">\U6ca1\U4ec0\U4e48\U5173\U7cfb</span>\Uff09</span>
+    \n</p>
+\n<p style=\"text-align:center;\">
+    \n\t<span style=\"font-family:'Microsoft YaHei';font-size:16px;\"><br />
+        \n</span>
+    \n</p>
+\n<p style=\"text-align:center;\">
+    \n\t<span style=\"font-family:'Microsoft YaHei';font-size:32px;color:#E53333;\">BUT\Uff01</span>
+    \n</p>
+\n<p style=\"text-align:center;\">
+    \n\t<span style=\"font-family:'Microsoft YaHei';font-size:16px;\"><br />
+        \n</span>
+    \n</p>
+\n<p style=\"text-align:center;\">
+    \n\t<span style=\"font-family:'Microsoft YaHei';font-size:16px;\">\U8ddf\U4f60\U4eec\U770b\U8fc7\U7684\U52a8<span style=\"color:#E53333;\">\Uff08li\Uff09</span>\U6f2b<span style=\"color:#E53333;\">\Uff08fan\Uff09</span>\U6709\U5173\U554a\Uff01</span>
+    \n</p>
+\n<p style=\"text-align:center;\">
+    \n\t<span style=\"font-family:'Microsoft YaHei';font-size:16px;\"><img src=\"http://7xkbpd.com2.z0.glb.qiniucdn.com/6692f6b43dc9f585b31730a5049b4ba3_149323.jpeg\" alt=\"\" /><br />
+        \n</span>
+    \n</p>
+\n<p style=\"text-align:center;\">
+    \n\t<span style=\"font-family:'Microsoft YaHei';font-size:16px;\"><br />
+        \n</span>
+    \n</p>
+\n<p style=\"text-align:center;\">
+    \n\t<span><span style=\"font-size:16px;line-height:24px;\">\U5973\U5e1d\U59d0\U59d0\U4f5c\U4e3a\U4f17\U591a<span style=\"color:#E53333;\"><strong>\U201c\U6027\U611f\U59d0\U59d0\U201d</strong></span>\U4e4b\U4e00</span></span>
+    \n</p>
+\n<p style=\"text-align:center;\">
+    \n\t<span><span style=\"font-size:16px;line-height:24px;\">\U5f53\U7136\U6709\U6743\U5229\U4f5c\U4e3a\U6b64\U6b21\U6d3b\U52a8\U7684\U62bd\U5956\U5bf9\U8c61</span></span>
+    \n</p>
+\n<p style=\"text-align:center;\">
+    \n\t<span><span style=\"font-size:16px;line-height:24px;\">\U5436~</span></span>
+    \n</p>
+\n<p style=\"text-align:center;\">
+    \n\t<span><span style=\"font-size:16px;line-height:24px;\"><img src=\"http://7xkbpd.com2.z0.glb.qiniucdn.com/ddb871b5f4f60434590b17cb5e85ff10_79959.jpeg\" alt=\"\" /><br />
+        \n</span></span>
+    \n</p>
+\n<p style=\"text-align:left;\">
+    \n\t<span><span style=\"font-size:16px;line-height:24px;\"><br />
+        \n</span></span>
+    \n</p>
+\n<p style=\"text-align:left;\">
+    \n\t<span><span style=\"font-size:16px;line-height:24px;color:#333333;\">\U6b64\U6b21\U6d3b\U52a8\U89c4\U5219\U4e3a\Uff1a</span></span>
+    \n</p>
+\n<p style=\"text-align:left;\">
+    \n\t<span><span style=\"font-size:16px;line-height:24px;\"><br />
+        \n</span></span>
+    \n</p>
+\n<p style=\"text-align:left;\">
+    \n\t<span><span style=\"font-size:16px;line-height:24px;\"><span style=\"color:#333333;\">\U8bf7\U56de\U590d</span><span style=\"color:#E53333;\"><strong>\U201c\U5728\U4e8c</strong></span><span style=\"font-family:'Microsoft YaHei';font-size:16px;line-height:24px;color:#E53333;\"><strong>\Uff08\U91cc\Uff09</strong></span><span style=\"color:#E53333;\"><strong></strong></span><span style=\"color:#E53333;\"><strong>\U6b21</strong></span><span style=\"font-family:'Microsoft YaHei';font-size:16px;line-height:24px;color:#E53333;\"><strong>\Uff08\U756a\Uff09</strong></span><span style=\"color:#E53333;\"><strong></strong></span><span style=\"color:#E53333;\"><strong>\U5143\Uff08\U9274\Uff09\U6210\Uff08\U8d4f\Uff09\U957f\U8fc7\U7a0b\U4e2d\Uff0c\U4f60\U6700\U559c\U6b22\U7684\U52a8\U6f2b\U4e2d\U3010\U59d0\U59d0\U3011\U3001\U3010\U5c11\U5987\U3011\U3001\U3010\U719f\U5973\U3011\U662f\U8c01\Uff01\U4ee5\U53ca\U4e3a\U4ec0\U4e48\Uff01\U201d</strong></span><br />
+        \n</span></span>
+    \n</p>
+\n<p style=\"text-align:left;\">
+    \n\t<br />
+    \n</p>
+\n<p style=\"text-align:left;\">
+    \n\t<br />
+    \n</p>
+\n<p style=\"text-align:center;\">
+    \n\t<span style=\"color:#333333;font-size:24px;font-family:'Microsoft YaHei';\"><strong>\U56de\U7b54\U8fd9\U4e2a\U95ee\U9898\U4ee5\U524d\Uff0c\U8bf7\U770b\U8bf4\U660e\Uff01</strong></span>
+    \n</p>
+\n<p style=\"text-align:center;\">
+    \n\t<span style=\"color:#9933E5;font-size:18px;font-family:'Microsoft YaHei';\"><strong>1.\U672a\U6210\U5e74\U4eba\Uff0c\U4f60\U5988\U662f\U4e0d\U4f1a\U5141\U8bb8\U4f60\U628a\U8fd9\U4e2a\U6027\U611f\U624b\U529e\U653e\U5728\U5bb6\U91cc\U7684\Uff0c\U5475\U5475</strong></span>
+    \n</p>
+\n<p style=\"text-align:center;\">
+    \n\t<span style=\"color:#9933E5;font-size:18px;font-family:'Microsoft YaHei';\"><strong>2.\U4e0d\U8bb8\U53d1\U8f66\Uff01\U7981\U7528\U5b57\U773c\U8bf7\U7528\U54d4\U54d4\U54d4\U4ee3\U66ff\Uff0c\U5475\U5475\U5475</strong></span>
+    \n</p>
+\n<p style=\"text-align:center;\">
+    \n\t<span style=\"color:#9933E5;font-size:18px;font-family:'Microsoft YaHei';\"><strong><img src=\"http://7xkbpd.com2.z0.glb.qiniucdn.com/8b0dac6859952ed48ea5b98fc5ac26ab_50683.jpeg\" alt=\"\" /><br />
+        \n</strong></span>
+    \n</p>
+\n<p style=\"text-align:center;\">
+    \n\t<span style=\"color:#9933E5;font-size:18px;font-family:'Microsoft YaHei';\"><strong><br />
+        \n</strong></span>
+    \n</p>
+\n<p style=\"text-align:left;\">
+    \n\t<span style=\"color:#9933E5;font-size:18px;font-family:'Microsoft YaHei';\"><strong> </strong></span>
+    \n</p>
+\n<p class=\"MsoNormal\" style=\"text-align:justify;\">
+    \n\t<strong><span style=\"font-family:'Microsoft YaHei';font-size:16px;color:#E53333;\"><strong>\U8bc4\U9009\U89c4\U5219\Uff1a</strong></span> </strong>
+    \n</p>
+\n<p class=\"MsoNormal\" style=\"text-align:justify;\">
+    \n\t<strong><span style=\"font-family:'Microsoft YaHei';font-size:16px;color:#E53333;\"><strong><br />
+        \n</strong></span> </strong>
+    \n</p>
+\n<p class=\"MsoNormal\" style=\"text-align:justify;\">
+    \n\t<strong><span style=\"font-family:'Microsoft YaHei';font-size:16px;color:#333333;\">\U6d3b\U52a8\U7ed3\U675f\U540e</span> </strong>
+    \n</p>
+\n<p class=\"MsoNormal\" style=\"text-align:justify;\">
+    \n\t<strong><span style=\"font-family:'Microsoft YaHei';font-size:16px;\"><span style=\"color:#333333;\">\U968f\U673a\U62bd\U53d6</span><span style=\"color:#E53333;\"><strong>3\U4f4d</strong></span><span style=\"color:#333333;\">\U6b27\U6d32\U4eba\U83b7\U5f97\U5973\U5e1d\U6027\U611f\U624b\U529e*\Uff08\U6210\U4eba\Uff09</span></span> </strong>
+    \n</p>
+\n<p class=\"MsoNormal\" style=\"text-align:center;\">
+    \n\t<strong><span style=\"font-family:'Microsoft YaHei';font-size:16px;\"><span style=\"color:#333333;\"><img src=\"http://7xkbpd.com2.z0.glb.qiniucdn.com/02004ec1edd5dd08315cb2d2b677ce67_72463.jpg\" alt=\"\" /><img src=\"http://7xkbpd.com2.z0.glb.qiniucdn.com/4dd13e0edef235846483b7064a425f83_49932.jpg\" alt=\"\" /><img src=\"http://7xkbpd.com2.z0.glb.qiniucdn.com/fa4285b2d9d7cde676a92a34904e761a_59551.jpg\" alt=\"\" /><img src=\"http://7xkbpd.com2.z0.glb.qiniucdn.com/c5e2144bdcb069aff5c03e74b63bbe05_58764.jpg\" alt=\"\" /><br />
+        \n</span></span> </strong>
+    \n</p>
+\n<p class=\"MsoNormal\" style=\"text-align:justify;\">
+    \n\t<strong><span style=\"font-family:'Microsoft YaHei';font-size:16px;\"><span style=\"color:#333333;\"><br />
+        \n</span></span> </strong>
+    \n</p>
+\n<p class=\"MsoNormal\" style=\"text-align:justify;\">
+    \n\t<strong><span style=\"font-family:'Microsoft YaHei';font-size:16px;\"><span style=\"color:#333333;\"> </span></span></strong>
+    \n</p>
+\n<p class=\"MsoNormal\" style=\"text-align:justify;\">
+    \n\t<strong><span style=\"font-family:'Microsoft YaHei';font-size:16px;color:#E53333;\"><strong>\U6d3b\U52a8\U65f6\U95f4\U53ca\U9886\U5956\U89c4\U5219</strong></span> </strong>
+    \n</p>
+\n<p class=\"MsoNormal\" style=\"text-align:justify;\">
+    \n\t<br />
+    \n</p>
+\n<p class=\"MsoNormal\" style=\"text-align:justify;\">
+    \n\t<span style=\"font-family:'Microsoft YaHei';font-size:16px;\">1.\U6d3b\U52a8\U65f6\U95f4\Uff1a3\U67084\U65e5\U81f33\U67088\U65e5<span style=\"color:#E53333;\">\Uff08\U5987\U5973\U8282\Uff09</span></span>
+    \n</p>
+\n<p class=\"MsoNormal\" style=\"text-align:justify;\">
+    \n\t<span style=\"font-family:'Microsoft YaHei';font-size:16px;\">2.\U9886\U5956\U987b\U77e5\Uff1a3\U67088\U65e5\U5173\U6ce8APP\U4e2d\U5956\U540d\U5355\Uff01\U4e2d\U5956\U5c0f\U76c6\U5b87\U52a0\U6211QQ\Uff08351152766\Uff09\U79c1\U4fe1\U6211\U6536\U8d27\U5730\U5740\U54df~~\U3010\U6d3b\U52a8\U622a\U6b62\U52303\U67088\U65e522:00\Uff0c\U6ca1\U6709\U7ed9\U6211\U5730\U5740\U7684\U5c0f\U76c6\U5b87\U81ea\U52a8\U5f03\U6743\U4e86\U54df~\U3011</span>
+    \n</p>
+\n<p class=\"MsoNormal\" style=\"text-align:justify;\">
+    \n\t<strong><span style=\"font-family:'Microsoft YaHei';font-size:16px;\"><br />
+        \n</span> </strong>
+    \n</p>
+\n<p class=\"MsoNormal\" style=\"text-align:center;\">
+    \n\t<strong><span style=\"font-family:'Microsoft YaHei';font-size:16px;\"><img src=\"http://7xkbpd.com2.z0.glb.qiniucdn.com/642d03209535fa3e685abe946f5f2e7c_96200.jpeg\" alt=\"\" /><br />
+        \n</span> </strong>
+    \n</p>
+\n<p class=\"MsoNormal\" style=\"text-align:center;\">
+    \n\t<strong><br />
+        \n</strong>
+    \n</p>
+\n<p class=\"MsoNormal\" style=\"text-align:left;\">
+    \n\t<strong><span style=\"font-family:'Microsoft YaHei';font-size:16px;\"> </span></strong>
+    \n</p>
+\n<p class=\"MsoNormal\" style=\"margin-left:0pt;text-indent:0pt;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:medium;text-align:center;background:#FCFCFC;\">
+    \n\t<span style=\"font-size:16px;font-family:'Microsoft YaHei';\">\U671b\U5404\U4f4d\U4e8c\U6b21\U5143\U4f4f\U6c11\U53ca\U65f6\U5173\U6ce8\U5f00\U5956\U4fe1\U606f\Uff01\U514d\U5f97\U9519\U8fc7\U9886\U5956\U65f6\U95f4\Uff01</span>
+    \n</p>
+\n<p class=\"MsoNormal\" style=\"margin-left:0pt;text-indent:0pt;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:medium;text-align:center;background:#FCFCFC;\">
+    \n\t<span style=\"font-size:16px;font-family:'Microsoft YaHei';\">\U8001\U6e7f\U4eca\U540e\U6bcf<span style=\"color:#E53333;\">\U5468\U4e94</span>\U66f4\U65b0\U62bd\U5956\U6d3b\U52a8\Uff0c<span style=\"color:#E53333;\">\U5468\U4e8c</span>\U516c\U5e03\U83b7\U5956\U540d\U5355\Uff01</span>
+    \n</p>
+\n<p class=\"MsoNormal\" style=\"margin-left:0pt;text-indent:0pt;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:medium;text-align:center;background:#FCFCFC;\">
+    \n\t<span style=\"font-size:16px;font-family:'Microsoft YaHei';\">\U671b\U5404\U4f4d\U4f4f\U6c11\U5954\U8d70\U76f8\U544a\Uff01\U4e48\U4e48\U54d2(\U3065\Uffe3&nbsp;3\Uffe3)~</span>
+    \n</p>
+\n<p class=\"MsoNormal\" style=\"margin-left:0pt;text-indent:0pt;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:medium;text-align:center;background:#FCFCFC;\">
+    \n\t<span style=\"font-size:16px;font-family:'Microsoft YaHei';\">&nbsp;</span>
+    \n</p>
+\n<p class=\"MsoNormal\" style=\"margin-left:0pt;text-indent:0pt;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:medium;text-align:center;background:#FCFCFC;\">
+    \n\t<span style=\"font-size:16px;font-family:'Microsoft YaHei';\"><br />
+        \n</span>
+    \n</p>
+\n<p class=\"MsoNormal\" style=\"margin-left:0pt;text-indent:0pt;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:medium;text-align:center;background:#FCFCFC;\">
+    \n\t<span style=\"font-size:16px;font-family:'Microsoft YaHei';\"></span>
+    \n</p>
+\n<p class=\"MsoNormal\" style=\"margin-left:0pt;text-indent:0pt;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:medium;text-align:center;background:#FCFCFC;\">
+    \n\t<span style=\"font-size:16px;font-family:'Microsoft YaHei';color:#E53333;\">PS\Uff1a\U91cd\U8981\U7684\U6765\U5566\Uff01</span>
+    \n</p>
+\n<p class=\"MsoNormal\" style=\"margin-left:0pt;text-indent:0pt;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:medium;text-align:center;background:#FCFCFC;\">
+    \n\t<span style=\"font-size:16px;font-family:'Microsoft YaHei';\">QQ\U7fa4\Uff1a\U771f\U00b7\U98ce\U9a70\U7535\U63a3\U4e4b\U9ea6\U840c\U53f7&nbsp;452862111</span>
+    \n</p>
+\n<p class=\"MsoNormal\" style=\"margin-left:0pt;text-indent:0pt;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:medium;text-align:center;background:#FCFCFC;\">
+    \n\t<span style=\"font-size:16px;font-family:'Microsoft YaHei';\">\U52a0\U7fa4\U53ef\U4ee5\U8ba8\U8bba\U4e2d\U5956\U4fe1\U606f\Uff01\U4e2d\U5956\U51e0\U7387\U66f4\U9ad8\Uff01\U8fd8\U53ef\U4ee5\U53d1\U8f66\Uff01\U8fd8\U53ef\U4ee5\U2026\U2026\U4f60\U81ea\U5df1\U609f\U2026\U2026</span>
+    \n</p>
+\n<div style=\"font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:medium;text-align:center;background-color:#FCFCFC;\">
+    \n\t<strong><img src=\"http://7xkbpd.com2.z0.glb.qiniucdn.com/b02a5505cbb19eca02821c03e7b4b1a1_438634.png\" alt=\"\" /> </strong>
     \n</div>
-\n<span style=\"font-family:Microsoft YaHei;font-size:16px;\">\U867d\U7136\U4e0d\U662f\U5f88\U6e05\U695a\Uff0c\U4f46\U662f\U6b63\U5728cos\U81ea\U5df1\U6240\U914d\U89d2\U8272\U60e0\U60e0\U7684\U9ad8\U6865\U674e\U4f9d\U5728\U5f2f\U8170\U7684\U65f6\U5019\Uff0c\U56e0\U4e3a\U670d\U88c5\U9886\U53e3\U8fc7\U5927\U5bfc\U81f4\U4e8b\U4e1a\U7ebf\U9732\U51fa\Uff08\Uff1f\Uff09\Uff0c\U597d\U5427\U5c31\U7b97\U662fAV\U753b\U8d28\U4e5f\U80fd\U770b\U51fa\Uff0c\U8fd9\U59b9\U5b50\U5e76\U6ca1\U6709\U4ec0\U4e48\U6599\U5462\Uff01\U4f46\U4f9d\U65e7\U4ee4\U5e7f\U5927\U56f4\U89c2\U7fa4\U4f17\U5174\U594b\U4e0d\U5df2\U3002\U73b0\U5728\U4f60\U4eec\U77e5\U9053\U770b\U76f4\U64ad\U6709\U4e2a\U597d\U7f51\U901f\U597d\U7801\U7387\U7684\U597d\U5904\U4e86\U5427\Uff1f</span><br />
-\n<br />
-\n<span style=\"font-family:Microsoft YaHei;font-size:16px;\">\U3010\U653f\U59d4\U4e0a\U677f\U5807\U53cd\U5bf9\U653f\U6cbb\U4ecb\U5165\U52a8\U753b\U8a00\U8bba\U5e7f\U53d7\U597d\U8bc4\U3011</span><br />
-\n<span style=\"font-family:Microsoft YaHei;font-size:16px;\">\U8fd9\U4e2a\U793e\U4f1a\U4e3b\U4e49\U7231\U597d\U8005\U7684\U840c\U59b9\U5b50\Uff0c\U4e0d\U4f46\U4eba\U957f\U5f97\U597d\U770b\Uff0c\U800c\U4e14\U58f0\U97f3\U53c8\U597d\U542c\Uff0c\U5e76\U4e14\U80f8\U4e5f\U5927\U3002\U4f46\U6700\U6700\U91cd\U8981\U7684\U662f\U6709\U601d\U60f3\U3002\U5979\U66fe\U4e8e\U4e0a\U5468\U300a\U671d\U65e5\U65b0\U95fb\U300b\U62a5\U7eb8\U4e0a\U53d1\U8868\U8fc7\U5173\U4e8e\U53cd\U5bf9\U653f\U6cbb\U6743\U529b\U4ecb\U5165\U52a8\U753b\U7684\U6587\U7ae0\Uff0c\U5176\U4e2d\U8fd8\U4e3a\U5e7f\U5927\U519b\U5b85\U8bf4\U8bdd\Uff1a\U559c\U6b22\U519b\U4e8b\Uff0c\U4e0d\U4ee3\U8868\U559c\U6b22\U6218\U4e89\Uff01</span><br />
-\n<div align=\"center\">
-    \n\t<img src=\"http://7xkbpd.com2.z0.glb.qiniucdn.com/384a695eb2957fa64d1f2d7628835fc5_212531.png\" alt=\"\" /><br />
-    \n</div>
-\n<span style=\"font-family:Microsoft YaHei;font-size:16px;\">\U5c31\U8fd9\U4e00\U53e5\U8bdd\U5c31\U4fd8\U864f\U4e86\U5927\U91cf\U519b\U4e8b\U5b85\Uff0c\U5927\U91cf\U4e2d\U65e5\U519b\U5b85\U95fb\U98ce\U540e\U7eb7\U7eb7\U8def\U8f6c\U7c89\U3002\U80d6\U6b21\U4e5f\U5f88\U8d5e\U540c\U8fd9\U4e00\U70b9\Uff0c\U51c6\U786e\U6765\U8bf4\Uff0c\U5e76\U4e0d\U5e0c\U671b\U653f\U6cbb\U56e0\U7d20\U4ecb\U5165\U4efb\U4f55\U7684\U827a\U672f\U521b\U4f5c\U4e2d\U3002\Uff0c\U5bf9\U6574\U4e2a\U4eba\U7c7b\U6587\U660e\U7684\U53d1\U5c55\U90fd\U662f\U6beb\U65e0\U76ca\U5904\U7684\Uff08\U4e00\U4e0d\U5c0f\U5fc3\U5c31\U626f\U5927\U4e86\Uff09\U3002\U54b3\U54b3\Uff0c\U8bf7\U8ba9\U559c\U6b22\U52a8\U6f2b\U7684\U4eba\U7eaf\U7cb9\U7684\U4eab\U53d7\U52a8\U6f2b\U5e26\U6765\U7684\U6b22\U4e50\U5c31\U597d\U3002</span><br />
-\n<br />
-\n<span style=\"font-family:Microsoft YaHei;font-size:16px;\">\U3010\U9b54\U5361\U5c11\U5973\U6a31\U8981\U91cd\U5f00\U8fde\U8f7d\U3011</span><br />
-\n<span style=\"font-family:Microsoft YaHei;font-size:16px;\">2016 \U5e74\U662f\U5c0f\U6a31\U539f\U4f5c\U6f2b\U753b 20 \U5468\U5e74\Uff0c\U5728\U8bb2\U8c08\U793e\U65d7\U4e0b\U6f2b\U753b\U6742\U5fd7\U300aNAKAYOSHI\U300b 4 \U6708\U53f7\U4e0a\U5b98\U65b9\U6b63\U5f0f\U5ba3\U5e03 CLAMP \U5c06\U63a8\U51fa\U300a\U9b54\U5361\U5c11\U5973\U6a31\U300b\U7684\U65b0\U6f2b\U753b\Uff0c\U542c\U5230\U8fd9\U4e1c\U897f\Uff0c\U80d6\U6b21\U624b\U91cc\U7684\U72d7\U7cae\U90fd\U6389\U4e86\U4e00\U5730\Uff0c\U771f\U5c3c\U739b\U9707\U64bc\U3002\U8fd9\U7b97\U662f\U8bc8\U5c38\U4e48\Uff1f</span><br />
-\n<div align=\"center\">
-    \n\t<img src=\"http://7xkbpd.com2.z0.glb.qiniucdn.com/75213a7211066b5e461eab6b0fa2cc59_295066.png\" alt=\"\" /><br />
-    \n</div>
-\n<span style=\"font-family:Microsoft YaHei;font-size:16px;\">\U9b54\U5361\U5c11\U5973\U6a31\U4e0d\U4ec5\U662f\U5e7f\U5927\U59b9\U5b50\U5fc3\U4e2d\U7684\U7ae5\U5e74\U56de\U5fc6\Uff0c\U751a\U81f3\U662f\U5f00\U521b\U4e86\U840c\U8fd9\U4e2a\U6982\U5ff5\U7684\U5148\U9a71\Uff01\U4ee5\U81f3\U4e8e\U5c0f\U6a31\U80fd\U987a\U7406\U6210\U7ae0\U7684\U62ff\U4e0b\U521d\U4ee3\U840c\U738b\U4e5f\U662f\U5b9e\U81f3\U540d\U5f52\U3002\U9065\U60f3\U5f53\U5e74\U770b\U7740\U5c0f\U72fc\U548c\U5c0f\U6a31\U4e24\U4e2a\U4eba\U60c5\U60c5\U7231\U7231\U53c8\U5a07\U7f9e\U5f97\U4e0d\U5f97\U4e86\U7684\U6a21\U6837\Uff0c\U7535\U89c6\U673a\U524d\U7684\U6211\U4eec\U90fd\U7ea2\U4e86\U8138\U3002</span><br />
-\n<div align=\"center\">
-    \n\t<img src=\"http://7xkbpd.com2.z0.glb.qiniucdn.com/f8f86165e1a195af5e3b1982167eeb04_287134.png\" alt=\"\" /><br />
-    \n</div>
-\n<span style=\"font-family:Microsoft YaHei;font-size:16px;\">\U6b64\U6b21\U63a8\U51fa\U65b0\U6f2b\U753b\U8fde\U8f7d\U8fd8\U4e0d\U77e5\U9053\U662f\U4ec0\U4e48\U5185\U5bb9\Uff0c\U4f46\U56e0\U4e3a\U539f\U4f5c\U5b8c\U7ed3\U8f83\U5f7b\U5e95\Uff0c\U60f3\U5fc5\U662f20\U5468\U5e74\U7279\U522b\U7bc7\U90a3\U79cd\U77ed\U7bc7\U8865\U5145\U6f2b\U753b\U5427\U3002\U4f46\U5bf9\U4e8e\U5e7f\U5927\U7c89\U4e1d\U6765\U8bf4\Uff0c\U52a8\U753b\U4f55\U65f6\U91cd\U5236\U4e5f\U8bb8\U624d\U662f\U6700\U503c\U5f97\U5173\U6ce8\U7684\U4e8b\U60c5\U3002</span><br />
-\n<br />
-\n<span style=\"font-family:Microsoft YaHei;font-size:16px;\">\U3010RPG \U624b\U6e38\U300aBattle Girl High School\U300b\U5c06\U53d1\U552e\U9996\U5f20CD\U3011</span><br />
-\n<span style=\"font-family:Microsoft YaHei;font-size:16px;\">\U8fd9\U6b3e\U548c\U300a\U767d\U732b\U300b\U98ce\U683c\U7c7b\U4f3c\U7684\U5b66\U9662\U6218\U6597\U624b\U6e38\U5927\U81f4\U6545\U4e8b\U8bbe\U5b9a\U662f\U6f02\U4eae\U5b66\U751f\U59b9\U548c\U871c\U6c41\U602a\U7269\U6218\U6597\Uff0c\U987a\U5e26\U8fd8\U9644\U6709\U517b\U6210\U548c\U6362\U88c5\U7cfb\U7edf\U3002\U800c\U5176\U6700\U5927\U7684\U4eae\U70b9\U5927\U6982\U5c31\U662f\U56ca\U62ec\U5927\U91cf\U8d85\U4e00\U7ebf\U58f0\U4f18\U3002</span><br />
-\n<div align=\"center\">
-    \n\t<img src=\"http://7xkbpd.com2.z0.glb.qiniucdn.com/2d117cf86784b3b39b83137ffc80bd73_429059.png\" alt=\"\" /><br />
-    \n</div>
-\n<span style=\"font-family:Microsoft YaHei;font-size:16px;\">\U4f50\U4ed3\U7eeb\U97f3\U3001\U6d32\U5d0e\U7eeb\U3001\U5357\U6761\U7231\U4e43\U3001\U96e8\U5bab\U5929\U3001\U65e9\U89c1\U6c99\U7ec7\U3001\U4e0a\U5742\U5807\U3001\U5185\U5c71\U5915\U5b9e\U3001\U60a0\U6728\U78a7\U3001\U5185\U7530\U771f\U793c\U3001\U539f\U7530\U77b3\U3001\U5c0f\U6cfd\U4e9a\U674e\U7b49\U7b49\U90fd\U6709\U53c2\U4e0e\U914d\U97f3\Uff0c\U800c\U8fd9\U6b21\U63a8\U51fa\U7684CD\U6709\U56db\U9996\U66f2\U5b50\Uff0c\U5747\U6709\U8d85\U4eba\U6c14\U58f0\U4f18\U732e\U5531\U3002\U4e0d\U5f97\U4e0d\U8bf4\U5b98\U65b9\U662f\U771f\U8d22\U5927\U5668\U7c97\U3002\U8fd9\U4e48\U5f3a\U5927\U7684\U9635\U5bb9\Uff0c\U4e0d\U8003\U8651\U4e00\U4e0b\U52a8\U753b\U5316\U5417\Uff1f</span><br />
-\n<br />
-\n<span style=\"font-family:Microsoft YaHei;font-size:16px;\">\U3010\U54c6\U5566A\U68a6\U5728\U6cd5\U56fd\U88ab\U7981\U64ad\U3011</span><br />
-\n<span style=\"font-family:Microsoft YaHei;font-size:16px;\">\U65e5\U672c\U56fd\U6c11\U7ea7\U52a8\U753b\U54c6\U5566A\U68a6\U7adf\U7136\U5728\U6cd5\U5170\U897f\U906d\U9047\U7981\U64ad\Uff0c\U83ab\U975e\U90a3\U7fa4\U6d6a\U6f2b\U7684\U6cd5\U56fd\U4eba\U6bd4\U6211\U4eec\U7684\U6709\U5173\U90e8\U95e8\U8fd8\U72e0\Uff1f\U4e0d\U7ba1\U600e\U4e48\U8bf4\Uff0c\U54c6\U5566A\U68a6\U5728\U56fd\U5185\U90a3\U53ef\U662f\U4eba\U89c1\U4eba\U7231\U82b1\U89c1\U82b1\U5f00\U5341\U5206\U548c\U8c10\U53c8\U5145\U6ee1\U6b63\U80fd\U91cf\U7684\U7247\U5b50\Uff0c\U5f53\U7136\U5927\U96c4\U5077\U770b\U9759\U9999\U6d17\U6fa1\U4e0d\U7b97\U3002</span><br />
-\n<div align=\"center\">
-    \n\t<img src=\"http://7xkbpd.com2.z0.glb.qiniucdn.com/24383f8d2ed486903e23096169e10c7f_205918.png\" alt=\"\" /><br />
-    \n</div>
-\n<span style=\"font-family:Microsoft YaHei;font-size:16px;\">\U4e0d\U8fc7\U4eba\U5bb6\U6cd5\U56fd\U4f6c\U7ed9\U51fa\U7684\U7406\U7531\U5012\U4e5f\U80fd\U81ea\U5706\U5176\U8bf4\Uff0c\U4ed6\U4eec\U8868\U793a\U300c\U5982\U679c\U53d8\U6210\U50cf\U5927\U96c4\U90a3\U6837\U53ea\U4f9d\U9760\U54c6\U5566A\U68a6\U7684\U8bdd\Uff0c\U4e0d\U5229\U4e8e\U5b69\U5b50\U4eec\U7684\U6210\U957f\Uff0c\U5f53\U5b69\U5b50\U4eec\U9047\U5230\U56f0\U96be\U65f6\U5c31\U5e0c\U671b\U4f9d\U9760\U54c6\U5566A\U68a6\U6765\U89e3\U51b3\U7684\U8bdd\Uff0c\U90a3\U4e48\U5b69\U5b50\U4eec\U662f\U65e0\U6cd5\U8d8a\U8fc7\U4eba\U751f\U7684\U5404\U79cd\U56f0\U96be\U800c\U6210\U957f\U300d</span><br />
-\n<div align=\"center\">
-    \n\t<img src=\"http://7xkbpd.com2.z0.glb.qiniucdn.com/a788a16a78371ed0a9c3a967953b7b2c_208871.png\" alt=\"\" /><br />
-    \n</div>
-\n<span style=\"font-family:Microsoft YaHei;font-size:16px;\">\U8bf4\U5f97\U597d\U6709\U9053\U7406\Uff0c\U6211\U7adf\U65e0\U8a00\U4ee5\U5bf9\Uff01\U4e0d\U8fc7\U54c6\U5566A\U68a6\U91cc\U5176\U5b9e\U4e3b\U8981\U8fd8\U662f\U8bf4\U5927\U96c4\U5982\U679c\U4e0d\U9760\U81ea\U5df1\U52aa\U529b\U662f\U65e0\U6cd5\U771f\U6b63\U5730\U89e3\U51b3\U95ee\U9898\U7684\U3002\U4e0d\U8fc7\U81f3\U5c11\U6211\U770b\U5230\U4e86\U6cd5\U56fd\U4f6c\U5bf9\U672a\U6210\U5e74\U5b69\U5b50\U786e\U5b9e\U5f88\U4e0a\U5fc3\U5c31\U662f\U4e86\U3002</span><br />";
-createTime = "2016-03-03 11:54:05";
+\n<strong>
+    \n<p>
+        \n\t<br />
+        \n</p>
+    \n<p>
+        \n\t<br />
+        \n</p>
+    \n</strong>
+\n<p>
+    \n\t<br />
+    \n</p>";
+createTime = "2016-03-03 16:47:12";
 divisionID = "";
 fbDate = "";
 games = "";
 gamesID = 0;
 good = 0;
-id = 17453;
-images = "http://7xkbpd.com2.z0.glb.qiniucdn.com/0166d58e8b06084d12d47b421ebd097f_253145.jpeg";
-introduction = "\U3010\U58f0\U4f18\U9ad8\U6865\U674e\U4f9d\U518d\U6b21\U8d70\U5149\U3011
-\n\U8fd9\U5e74\U5934\U8d70\U5149\U4e5f\U662f\U6709\U60ef\U6027\U7684\Uff0c\U81ea\U4ece\U4e0a\U6b21\U76f4\U64ad\U9ad8\U6865\U674e\U4f9d\U56e0\U4e3a\U62b1\U7740\U5154\U5b50\U73a9\U5076\U4e0d\U5c0f\U5fc3\U628a\U88d9\U6446\U5377\U8d77\U6765\U5bfc\U81f4\U5185\U88e4\U8d70\U5149\U88ab\U5e7f\U5927\U7ec5\U58eb\U6ce8\U76ee\U540e\Uff0c\U8fd9\U56de\U4eba\U2026\U2026";
+id = 17530;
+images = "http://7xkbpd.com2.z0.glb.qiniucdn.com/188b9393c5aa73cd4721d5387a21d246_46577.jpeg";
+introduction = "\U89c2\U4f17\U59e5\U7237\U4eec\U5927\U5bb6\U7334\Uff01
+\n
+\n
+\n\t\U4e00\U5468\U4e00\U6b21\U7684\U62bd\U5956\U6d3b\U52a8\U53c8TM\U6765\U4e86\Uff01
+\n
+\n
+\n\t\U51c6\U5907\U597d\U63a5\U62db\U4e86\U4e48\Uff01
+\n
+\n
+\n\t
+\n
+\n
+\n\t
+\n
+\n
+\n\t\U2026\U2026";
 keyword = "";
-label = "\U539f\U521b,\U840c\U62a5,ACG\U9ea6\U840c\U65e5\U62a5";
+label = "";
 level = 0;
-modifyTime = "";
+modifyTime = "2016-03-04 11:06:28";
 offStatus = 1;
 position = "";
 score = "";
-shoppingDate = "2016-03-03 11:06:00";
-showTime = "2016-03-03 12:00:00";
+shoppingDate = "2016-03-04 12:00:00";
+showTime = "2016-03-04 12:00:00";
 sourceID = "";
 sourceType = 0;
 sourceUrl = "";
 specialID = "";
 status = 1;
 textType = 3;
-title = "\U3010ACG\U9ea6\U840c\U65e5\U62a5\U3011\U5c0f\U6a31\U5f52\U6765\Uff1f\U9b54\U5361\U5c11\U5973\U6a31\U6f2b\U753b\U8981\U51fa\U65b0\U8fde\U8f7d\Uff01\U8d70\U5149\U4e5f\U4f1a\U4e0a\U763e\Uff01\U9ad8\U6865\U674e\U4f9d\U518d\U6b21\U8d70\U5149\Uff01";
+title = "\U3010\U6210\U4eba\U6e38\U620f\U3011\U4e09\U516b\U5987\U5973\U8282\U9001\U5987\U5973\Uff01";
+unionType = 1;
+userID = 41838;
+viewCount = 0;
+};
+minVersionAD = "";
+minVersionIOS = "";
+modifyTime = "2016-03-04 11:03:42";
+shortNum = 10;
+status = 1;
+title = "\U3010\U6210\U4eba\U6e38\U620f\U3011\U4e09\U516b\U5987\U5973\U8282\U9001\U5987\U5973\Uff01";
+versionAD = 0;
+versionIOS = 0;
+},
+{
+adImageLogCount = 37;
+adminID = 49664;
+beginTime = "2016-03-04 12:00:38";
+clientType = "3,4";
+content = "";
+createTime = "2016-03-04 11:34:13";
+customPosition = 1;
+customType = 1;
+customValue = 17597;
+duration = 0;
+endTime = "2016-03-05 11:55:38";
+id = 1257;
+images = "http://7xkbpd.com2.z0.glb.qiniucdn.com/49bb7c13e8e43389c50a2101ae71d768_160217.jpeg";
+messageinfo =             {
+author = "\U80d6\U6b21\U83cc";
+bad = 0;
+content = "<span style=\"font-family:Microsoft YaHei;font-size:16px;\">\U3010\U4eac\U556a\U5927\U6218\Uff1f\U51b0\U83d3\U548c\U6625\U590f\U6539\U7f16\U771f\U4eba\U7248\U786e\U5b9a\Uff01\U3011</span><br />
+\n<span style=\"font-family:Microsoft YaHei;font-size:16px;\">\U8fd1\U65e5\U65e5\U672c\U5de8\U5934\U516c\U53f8\U89d2\U5ddd\U96c6\U56e2\U66dd\U5149\U4e86\U81ea\U5df1\U5728 2016-2107 \U5e74\U5ea6\U7684\U4f5c\U54c1\U8def\U7ebf\U56fe\Uff0c\U52a0\U4e0a\U4eca\U5e74\U8fd8\U662f\U89d2\U5ddd\U7535\U5f71 40 \U5468\U5e74\Uff0c\U6240\U4ee5\U5185\U5bb9\U91cf\U6bd5\U7adf\U4e30\U5bcc\Uff0c\U9664\U4e86\U5df2\U7ecf\U8bf4\U660e\U5c06\U5728\U4eca\U5e74\U4e0a\U6620\U7684\U8230\U5a18\U5267\U573a\U7248\U52a8\U753b\U5916\Uff0c\U8fd8\U5199\U660e\U300a\U51b0\U679c\U300b\U548c\U300a\U6625\U592a\U4e0e\U5343\U590f\U300b\U4e24\U90e8\U89d2\U5ddd\U65d7\U4e0b\U7684\U5c0f\U8bf4\U5c06\U63a8\U51fa\U771f\U4eba\U7535\U5f71\Uff01</span><br />
+\n<div align=\"center\">
+    \n\t<img src=\"http://7xkbpd.com2.z0.glb.qiniucdn.com/9323b27001a0f09084e095ec6b83b355_219019.png\" alt=\"\" /><br />
+    \n</div>
+\n<span style=\"font-family:Microsoft YaHei;font-size:16px;\">\U51b0\U83d3\U662f\U51fa\U81ea\U4eac\U963f\U5c3c\U7684\U6821\U56ed\U63a8\U7406\U4f5c\Uff0c\U800c\U6625\U590f\U662fPA\U793e\U63a8\U51fa\U7684\U9752\U6625\U97f3\U4e50\U641e\U57fa\U63a8\U7406\U4f5c\U3002\U603b\U800c\U8a00\U4e4b\U4e3b\U9898\U76f8\U4f3c\Uff0c\U56e0\U6b64\U53ef\U4ee5\U8ba4\U4e3a\U662f\U4e00\U6b21\U771f\U4eba\U7248\U7684\U4eacPA\U5927\U6218\U3002\U89d2\U5ddd\U4e5f\U662f\U4f1a\U73a9\U7684\Uff0c\U80d6\U6b21\U53ea\U5e0c\U671b\U4e0d\U8981\U6bc1\U539f\U4f5c\U6bc1\U7684\U592a\U5389\U5bb3\U3002\U867d\U7136\U6211\U57fa\U672c\U4e0a\U4e0d\U4f1a\U53bb\U770b\U5c31\U662f\U4e86\U3002</span><br />
+\n<div align=\"center\">
+    \n\t<img src=\"http://7xkbpd.com2.z0.glb.qiniucdn.com/0d6f36cfc0b220e6371dc7326a84987d_183967.png\" alt=\"\" /><br />
+    \n</div>
+\n<span style=\"font-family:Microsoft YaHei;font-size:16px;\">\U8bf4\U5230\U8fd9\Uff0c\U987a\U4fbf\U5b89\U5229\U4e0b\U6625\U590f\U8fd9\U90e8\U4f5c\U54c1\Uff0c\U8fd9\U662f\U9752\U6885\U7af9\U9a6c\U662f\U60c5\U654c\U7cfb\U5217\Uff0c\U8d35\U5708\U771f\U4e71\U7cfb\U5217\Uff0c\U5973\U4e3b\U64a9\U59b9\U7cfb\U5217\Uff0c\U7537\U4e3b\U79c0\U667a\U5546\U7cfb\U5217\U3002\U53ef\U4ee5\U4e00\U770b\Uff0c\U753b\U98ce\U8fd8\U662f\U4e0d\U9519\U7684\U3002</span><br />
+\n<p>
+    \n\t<span style=\"font-family:Microsoft YaHei;font-size:16px;\"><br />
+        \n</span>
+    \n</p>
+\n<p>
+    \n\t<span style=\"font-family:Microsoft YaHei;font-size:16px;\">\U3010\U5929\U91ce\U5a18\U53e6\U4e00\U4f5c\U300a\U5b87\U5b99\U8b66\U63a2\U300b\U660e\U5e74\U52a8\U753b\U5316\U51b3\U5b9a\U3011</span>
+    \n</p>
+\n<span style=\"font-family:Microsoft YaHei;font-size:16px;\">\U8bf4\U8d77\U5929\U91ce\U5a18\Uff0c\U60f3\U5fc5\U5927\U5bb6\U6700\U5148\U60f3\U5230\U7684\U5e94\U8be5\U662f\U5bb6\U6559\U5427\Uff0c\U554a\U4e0d\Uff0c\U5fc5\U987b\U662f\U5bb6\U6559\U5427\Uff01\U81f3\U4eca\U80d6\U6b21\U8fd8\U5bf9\U5bb6\U6559\U52a8\U753b\U534a\U9014\U622a\U6b62\U800c\U611f\U5230\U90c1\U95f7\U3002\U51fa\U4e86200\U591a\U96c6\U4f60\U5c31\U7ed9\U6211\U8170\U65a9\U4e86\Uff01\U8fd8\U80fd\U6109\U5feb\U7684\U73a9\U800d\U5417\Uff1f\Uff08\U51b7\U9759)\U8fd9\U4e00\U6b21\U4f5c\U8005\U7684\U53e6\U4e00\U90e8\U4eba\U6c14\U4f5c\U300a\U5b87\U5b99\U8b66\U63a2elDLIVE\U300b\U5ba3\U5e03\U57282017\U5e74\U52a8\U753b\U5316\Uff01</span><br />
+\n<div align=\"center\">
+    \n\t<img src=\"http://7xkbpd.com2.z0.glb.qiniucdn.com/774761fd9c7895febf812ae74291db34_568549.png\" alt=\"\" /><br />
+    \n</div>
+\n<span style=\"font-family:Microsoft YaHei;font-size:16px;\">\U5e76\U4e14\U653e\U51fa\U4e86\U5b98\U65b9\U7684\U7684\U5ba3\U4f20\U56fe\Uff0c\U4ece\U56fe\U4e0a\U770b\U8fd9\U4e3b\U89d2\U957f\U5f97\U8ddf\U5bb6\U6559\U91cc\U7684\U5f88\U76f8\U4f3c\U554a\Uff0c\U4e0d\U4e8f\U51fa\U81ea\U540c\U4e00\U4eba\U4e4b\U624b\U3002\U8fd9\U90e8\U4f5c\U54c1\U8bf4\U7684\U662f\U81ea\U8ba4\U4e3a\U662f\U53cc\U91cd\U4eba\U683c\U7684\U4e2d\U4e8c\U5c11\U5e74\U00b7\U4e5d\U4e4b\U6fd1\U5b99\U592a\U6210\U4e3a\U5b87\U5b99\U8b66\U5bdf\U4e4b\U540e\U7684\U6545\U4e8b\U3002\U4e5f\U662f\U4e2a\U5f02\U80fd\U6218\U6597\U7684\U6545\U4e8b\Uff0c\U8fd9\U8bbe\U5b9a\U679c\U7136\U5f88\U6709\U5bb6\U6559\U7684\U5473\U9053\Uff08\U4e09\U53e5\U4e0d\U79bb\U5bb6\U6559\Uff09\U3002</span><br />
+\n<br />
+\n<span style=\"font-family:Microsoft YaHei;font-size:16px;\">\U3010\U5012A\U6863\U53d1\U5e03\U4f1a3\U670817\U65e5\U4e3e\U884c\U3011</span><br />
+\n<span style=\"font-family:Microsoft YaHei;font-size:16px;\">\U4f5c\U54c1\U5728\U540d\U4e3a\U201cnoitamin-A\U201d\U7684\U8282\U76ee\U4e2d\U64ad\U51fa\U5c31\U4f1a\U83b7\U5f97\U201c\U5012A\U6863\U4f5c\U54c1\U201d\U7684\U540d\U53f7\U8fd9\U4e5f\U7b97\U662f\U4e1a\U754c\U5171\U8bc6\U4e86\U3002\U5176\U4e2d\U6700\U4ee4\U4eba\U5173\U6ce8\U7684\U201c\U5012A\U6863\U4f5c\U54c1\U201d\U5e94\U8be5\U662f\U8def\U4eba\U5973\U4e3b\U4e86\U5427\U3002\U5b98\U65b9\U8fd9\U6b21\U7684\U53d1\U5e03\U4f1a\U4e5f\U8bf7\U6765\U4e86\U971e\U4e4b\U4e18\U8bd7\U7fbd\U7684CV\U8305\U91ce\U7231\U8863\U6765\U534f\U52a9\U4e3b\U6301\U5de5\U4f5c\Uff0c\U770b\U6765\U8981\U516c\U5f00\U7684\U65b0\U6d88\U606f\U91cc\U5e94\U8be5\U5c31\U4f1a\U6709\U8def\U4eba\U5973\U4e3b\U7b2c\U4e8c\U5b63\U7684\U60c5\U62a5\U4e86\Uff01</span><br />
+\n<div align=\"center\">
+    \n\t<img src=\"http://7xkbpd.com2.z0.glb.qiniucdn.com/f02c48bdf2a6ec76e828515374a3c21a_314320.png\" alt=\"\" /><br />
+    \n</div>
+\n<span style=\"font-family:Microsoft YaHei;font-size:16px;\">\U4f5c\U4e3a\U77e5\U540d\U811a\U672c\U5bb6\U4e38\U6237\U53f2\U660e\U7684\U4f5c\U54c1\Uff0c\U8def\U4eba\U5973\U4e3b\U4e5f\U7ee7\U627f\U4e86\U767d\U8272\U76f8\U7c3f\U7684\U515a\U4e89\U4f20\U7edf\Uff0c\U4f5c\U54c1\U5728\U53bb\U5e74\U64ad\U51fa\U4e86\U53cd\U54cd\U76f8\U5f53\U70ed\U70c8\Uff0c\U5e76\U4e14\U8bde\U751f\U4e86\U5927\U91cf\U7684\U8def\U5b66\U5bb6\U3002\U800c\U7b2c\U4e00\U5b63\U52a8\U753b\U7684BD\U5377\U519b\U4e5f\U8fbe\U5230\U4e869200\Uff0c\U662f\U4e2a\U76f8\U5f53\U4e0d\U9519\U7684\U6570\U5b57\U3002\U867d\U7136\U786e\U5b9a\U6709\U7b2c\U4e8c\U5b63\U8ba1\U5212\Uff0c\U4f46\U662f\U5b98\U65b9\U8fdf\U8fdf\U4e0d\U8bf4\U5177\U4f53\U65f6\U95f4\U3002\U4e5f\U662f\U4ee4\U4eba\U76f8\U5f53\U6349\U6025\Uff01</span><br />
+\n<div align=\"center\">
+    \n\t<img src=\"http://7xkbpd.com2.z0.glb.qiniucdn.com/d42fa409b7ddcc8c73d2ef211d8b986a_295991.png\" alt=\"\" /><br />
+    \n</div>
+\n<span style=\"font-family:Microsoft YaHei;font-size:16px;\">\U8fd9\U6b21\U5012A\U53d1\U5e03\U4f1a\U4e3b\U8981\U5185\U5bb9\U662f\U516c\U5e03\U4e4b\U540e\U8981\U63a8\U7684\U65b0\U4f5c\U52a8\U753b\U548c\U5267\U573a\U7248\U52a8\U753b\Uff0c\U90a3\U4e48\U6211\U4eec\U4e5f\U5927\U53ef\U4ee5\U671f\U5f85\U4e0b\U4f1a\U6709\U8def\U4eba\U5973\U4e3b\U7684\U91cd\U78c5\U6d88\U606f\U6d41\U51fa\U3002\U80d6\U6b21\U6211\U5df2\U7ecf\U7b49\U4e0d\U53ca\U8981\U770b\U5b66\U59d0\U7684\U9ed1\U4e1d\U4e86\Uff01</span><br />
+\n<br />
+\n<span style=\"font-family:Microsoft YaHei;font-size:16px;\">\U3010\U653f\U59d4\U4e0a\U5742\U5807\U63a8\U7279\U505c\U6b62\U66f4\U65b0\U3011</span><br />
+\n<span style=\"font-family:Microsoft YaHei;font-size:16px;\">\U6700\U8fd1\U5173\U4e8e\U653f\U59d4\U7684\U6d88\U606f\U4e3b\U8981\U6709\U4e24\U4e2a\Uff0c\U4e00\U4e2a\U662f\U8bf4\U653f\U59d4\U4e3a\U519b\U5b85\U53d1\U8a00\U8d62\U5f97\U597d\U8bc4\U4e00\U7247\U3002\U53e6\U4e00\U4e2a\U662f\U8bf4\U65e5\U672c\U7684\U58f0\U4f18\U53a8\U901a\U8fc7\U62c9\U52a8\U8272\U9636\U66f2\U7ebf\U7684\U65b9\U5f0f\U5206\U6790\U51fa\U4e86\U4e0a\U5742\U5807\U6240\U7a7f\U5185\U8863\U7684\U989c\U8272\U3002\U7136\U540e\U5c31\U5728\U6628\U5929\U653f\U59d4\U53c8\U51fa\U4e86\U5927\U65b0\U95fb\U3002\U5979\U5ba3\U5e03\U63a8\U7279\U505c\U6b62\U66f4\U65b0\U3002</span><br />
+\n<div align=\"center\">
+    \n\t<img src=\"http://7xkbpd.com2.z0.glb.qiniucdn.com/3eab08337872355edff58e04cce1e04a_193443.png\" alt=\"\" /><br />
+    \n</div>
+\n<span style=\"font-family:Microsoft YaHei;font-size:16px;\">\U6765\U4e86\U8fd9\U4e48\U4e00\U51fa\Uff0c\U987f\U65f6\U5f15\U8d77\U7c89\U4e1d\U4eec\U7684\U8bae\U8bba\U3002\U5927\U5bb6\U90fd\U5728\U60f3\U4e3a\U4ec0\U4e48\U653f\U59d4\U7a81\U7136\U5c31\U5173\U95ed\U63a8\U7279\U4e86\U5462\Uff1f\U5176\U5b9e\U7406\U7531\U4e5f\U5f88\U7b80\U5355\Uff0c\U57fa\U672c\U4e0a\U9003\U4e0d\U8fc7\U4e0a\U8ff0\U80d6\U6b21\U8bf4\U7684\U4e24\U4e2a\U6d88\U606f\U91cc\U3002\U8981\U4e48\U5c31\U662f\U653f\U59d4\U5199\U6587\U7ae0\U547c\U5401\U653f\U6cbb\U4e0d\U8981\U4ecb\U5165\U52a8\U6f2b\U88ab\U4eba\U9ed1\U4e86\Uff0c\U8981\U4e48\U5c31\U662f\U58f0\U4f18\U53a8\U7684\U6ca1\U4ec0\U4e48\U5375\U7528\U7684\U53d1\U73b0\U7ed9\U6076\U5fc3\U5230\U4e86\U3002\U8fd9\U771f\U7684\U662f\U4eba\U7ea2\U662f\U975e\U591a\U554a\Uff0c\U903c\U5f97\U4eba\U5bb6\U53ea\U80fd\U5f03\U5751\U4fdd\U5e73\U5b89\U4e86\U3002</span><br />
+\n<div align=\"center\">
+    \n\t<img src=\"http://7xkbpd.com2.z0.glb.qiniucdn.com/0afdc177d220621cf5181e296d909c34_327601.png\" alt=\"\" /><br />
+    \n</div>
+\n<span style=\"font-family:Microsoft YaHei;font-size:16px;\">\U54e6\Uff01\U5c31\U5728\U80d6\U6b21\U521a\U521a\U5728\U5199\U8fd9\U5219\U6d88\U606f\U7684\U65f6\U5019\Uff0c\U653f\U59d4\U535a\U5ba2\U89e3\U91ca\U4e86\U5f03\U5751\U63a8\U7279\U7684\U539f\U56e0\Uff0c\U7b80\U5355\U6765\U8bf4\U5c31\U662f\U4e00\U53e5\U8bdd\Uff0c\U53d7\U4e0d\U4e86\U667a\U969c\U7684\U8bfd\U8c24\U548c\U6076\U610f\U4e2d\U4f24\U3002\U770b\U6765\U6211\U731c\U5f97\U6ca1\U9519\U3002</span><br />
+\n<br />
+\n<span style=\"font-family:Microsoft YaHei;font-size:16px;\">\U3010\U65e5\U672c\U60ca\U73b0\U5d2d\U65b0\U9a97\U5c40\U3011</span><br />
+\n<span style=\"font-family:Microsoft YaHei;font-size:16px;\">\U80d6\U6b21\U6211\U65e2\U7136\U653e\U5728\U6700\U540e\U4e86\Uff0c\U719f\U6089\U6211\U7684\U4eba\U5e94\U8be5\U77e5\U9053\U8fd9\U5219\U6d88\U606f\U662f\U4ec0\U4e48\U6027\U8d28\U7684\U3002\U6700\U8fd1\U65e5\U672c\U65b9\U9762\U53d1\U73b0\U4e86\U4e00\U4e2a\U65b0\U578b\U9a97\U5c40\Uff0c\U7528\U4e00\U53e5\U8bdd\U6765\U6982\U62ec\U5c31\U662f\U59b9\U5b50\U69a8\U5e72\U7537\U6027\U7136\U540e\U544a\U5176\U8fdd\U7ea6\Uff01</span><br />
+\n<div align=\"center\">
+    \n\t<img src=\"http://7xkbpd.com2.z0.glb.qiniucdn.com/c69c202263431e8a7370097ad764b6d1_105184.png\" alt=\"\" /><br />
+    \n</div>
+\n<span style=\"font-family:Microsoft YaHei;font-size:16px;\">\U4e8b\U60c5\U662f\U8fd9\U6837\U7684\Uff0c\U6709\U4e00\U4e2a6\U30017\U4eba\U7684\U5c0f\U56e2\U4f53\U5728\U8857\U4e0a\U6643\U8361\Uff0c\U770b\U5230\U5408\U9002\U7684\U7537\U7684\U5c31\U4e0a\U524d\U52fe\U642d\U3002\U8bf4\U81ea\U5df1\U662fAV\U516c\U53f8\Uff0c\U8981\U62cdAV\Uff0c\U7136\U540e\U8ddf\U90a3\U7537\U7684\U7b7e\U7ea6\U3002\U4e4b\U540e\U8ba9\U56e2\U961f\U91cc\U7684\U98ce\U4fd7\U5a18\U51fa\U9a6c\Uff0c\U624b\U53e3\U811a\U5e76\U7528\Uff0c\U603b\U800c\U8a00\U4e4b\U4ee5\U6700\U5feb\U7684\U901f\U5ea6\U69a8\U5e72\U7537\U6027\U3002\U666e\U901a\U7537\U7684\U6ca1\U591a\U5c11\U65f6\U95f4\U5c31\U7f34\U68b0\U4e86\Uff01\U7136\U540e\U8fd9\U4e2a\U5047\U5192AV\U5382\U5546\U7684\U56e2\U4f19\U5c31\U4ee5\U65e0\U6cd5\U6309\U7167\U5408\U7ea6\U5b8c\U6210\U556a\U556a\U556a\U7684\U7406\U7531\U8981\U6c42\U5bf9\U65b9\U652f\U4ed8\U8fdd\U7ea6\U91d1\U3002</span><br />
+\n<div align=\"center\">
+    \n\t<img src=\"http://7xkbpd.com2.z0.glb.qiniucdn.com/dffacbb4f87dbce98ccbc7c719b274c4_129474.png\" alt=\"\" /><br />
+    \n</div>
+\n<span style=\"font-family:Microsoft YaHei;font-size:16px;\">\U5c9b\U56fd\U4eba\U6c11\U771f\U4f1a\U73a9\Uff0c\U542c\U8bf4\U8b66\U5bdf\U53d4\U53d4\U77e5\U9053\U8fd9\U4ef6\U4e8b\U4e4b\U540e\U90fd\U5c3c\U739b\U60ca\U5446\U4e86\U597d\U4e48\Uff01\U4f60\U4eec\U90a3\U4e48\U725b\U903c\U548b\U4e0d\U53bb\U627e\U4e0a\U9762\U4e24\U4f4d\U8001\U6e7f\U5462\Uff1f\U770b\U8c01\U69a8\U5e72\U8c01\Uff01</span><br />";
+createTime = "2016-03-04 11:33:33";
+divisionID = "";
+fbDate = "";
+games = "";
+gamesID = 0;
+good = 0;
+id = 17597;
+images = "http://7xkbpd.com2.z0.glb.qiniucdn.com/49bb7c13e8e43389c50a2101ae71d768_160217.jpeg";
+introduction = "\U3010\U4eac\U556a\U5927\U6218\Uff1f\U51b0\U83d3\U548c\U6625\U590f\U6539\U7f16\U771f\U4eba\U7248\U786e\U5b9a\Uff01\U3011
+\n\U8fd1\U65e5\U65e5\U672c\U5de8\U5934\U516c\U53f8\U89d2\U5ddd\U96c6\U56e2\U66dd\U5149\U4e86\U81ea\U5df1\U5728 2016-2107 \U5e74\U5ea6\U7684\U4f5c\U54c1\U8def\U7ebf\U56fe\Uff0c\U52a0\U4e0a\U4eca\U5e74\U8fd8\U662f\U89d2\U5ddd\U7535\U5f71 \U2026\U2026";
+keyword = "ACG\U9ea6\U840c\U65e5\U62a5";
+label = "\U539f\U521b,\U840c\U62a5,ACG\U9ea6\U840c\U65e5\U62a5";
+level = 0;
+modifyTime = "";
+offStatus = 1;
+position = "";
+score = "";
+shoppingDate = "2016-03-04 10:44:00";
+showTime = "2016-03-04 12:00:00";
+sourceID = "";
+sourceType = 0;
+sourceUrl = "";
+specialID = "";
+status = 1;
+textType = 3;
+title = "\U3010ACG\U9ea6\U840c\U65e5\U62a5\U3011\U4eac\U556a\U5927\U6218\Uff01\U51b0\U83d3\U548c\U6625\U590f\U90fd\U8981\U51fa\U771f\U4eba\U5267\Uff01\U5947\U8469\Uff0111\U533a\U51fa\U73b0\U65b0\U578b\U9a97\U672f\Uff01";
 unionType = 1;
 userID = 49664;
 viewCount = 0;
 };
 minVersionAD = "";
 minVersionIOS = "";
-modifyTime = "2016-03-03 16:24:04";
-shortNum = 5;
+modifyTime = "";
+shortNum = 4;
 status = 1;
-title = "\U3010ACG\U9ea6\U840c\U65e5\U62a5\U3011\U5c0f\U6a31\U5f52\U6765\Uff1f\U9b54\U5361\U5c11\U5973\U6a31\U6f2b\U753b\U8981\U51fa\U65b0\U8fde\U8f7d\Uff01\U8d70\U5149\U4e5f\U4f1a\U4e0a\U763e\Uff01\U9ad8\U6865\U674e\U4f9d\U518d\U6b21\U8d70\U5149\Uff01 ";
+title = "\U3010ACG\U9ea6\U840c\U65e5\U62a5\U3011\U4eac\U556a\U5927\U6218\Uff01\U51b0\U83d3\U548c\U6625\U590f\U90fd\U8981\U51fa\U771f\U4eba\U5267\Uff01\U5947\U8469\Uff0111\U533a\U51fa\U73b0\U65b0\U578b\U9a97\U672f\Uff01 ";
 versionAD = 0;
 versionIOS = 0;
 },
 {
-adImageLogCount = 32;
+adImageLogCount = 176;
 adminID = 38;
 beginTime = "2016-03-03 16:23:55";
 clientType = "3,4";
@@ -169,7 +453,7 @@ versionAD = 0;
 versionIOS = 0;
 },
 {
-adImageLogCount = 22;
+adImageLogCount = 127;
 adminID = 38;
 beginTime = "2016-03-03 16:23:55";
 clientType = "3,4";
@@ -293,7 +577,7 @@ versionAD = 3;
 versionIOS = "2.52";
 },
 {
-adImageLogCount = 15;
+adImageLogCount = 103;
 adminID = 38;
 beginTime = "2016-03-03 16:23:55";
 clientType = "3,4";
@@ -384,7 +668,7 @@ versionAD = 0;
 versionIOS = 0;
 },
 {
-adImageLogCount = 17;
+adImageLogCount = 115;
 adminID = 38;
 beginTime = "2016-03-03 16:23:55";
 clientType = "3,4";

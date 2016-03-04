@@ -15,30 +15,27 @@
     
     if (self) {
         self.rType = rtype;
+        self.title = dic[@"title"];
+        self.image_bg = dic[@"images"];
+        self.pcId = dic[@"id"];
+        
+
         if ([self.rType isEqualToString:@"adImage/list"]) {
            
             self.beginTime = dic[@"beginTime"];
-            self.image_bg = dic[@"images"];
             self.endTime = dic[@"endTime"];
+            self.messageinfo = dic[@"messageinfo"];
+            self.content = dic[@"messageinfo"][@"content"];
+            self.images = self.messageinfo[@"images"];
             
         }else {
-           self.imageCount = dic[@"imageCount"];
+            
             self.author = dic[@"author"];
-          self.keyWord = dic[@"keyword"];
-          self.introduction = dic[@"introduction"];
-            self.label = dic[@"label"];
-            self.shareContent = dic[@"shareContent"];
-           self.shareUrl = dic[@"shareUrl"];
-       self.shoppingDate = dic[@"shoppingDate"];
-            self.showTime = dic[@"showTime"];
-        self.creatTime = dic[@"creatTime"];
-         self.creatTimeValue = dic[@"creatTimeValue"];
+            self.creatTimeValue = dic[@"createTimeValue"];
+            self.shareUrl = dic[@"shareUrl"];
             
         }
-         self.title = dic[@"title"];
         
-        self.pcId = dic[@"id"];
-
     }
     return self;
 

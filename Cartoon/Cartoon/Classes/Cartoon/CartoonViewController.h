@@ -10,4 +10,6 @@
 
 @interface CartoonViewController : UIViewController
 
+@property (nonatomic, assign)CartoonsType *cartoonsType;
+
 @end

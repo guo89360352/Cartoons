@@ -1,55 +1,46 @@
 //
-//  MessageDetailViewController.m
+//  CartoonsDetailViewController.m
 //  Cartoon
 //
-//  Created by scjy on 16/3/4.
+//  Created by scjy on 16/3/6.
 //  Copyright © 2016年 郭亚茹. All rights reserved.
 //
 
-#import "MessageDetailViewController.h"
-#import <AFNetworking/AFHTTPSessionManager.h>
-#import "MessageDetailVIew.h"
-#import "UIViewController+Common.h"
+#import "CartoonsDetailViewController.h"
 
-
-
-@interface MessageDetailViewController ()
+@interface CartoonsDetailViewController ()
 
 @end
 
-@implementation MessageDetailViewController
+@implementation CartoonsDetailViewController
+-(void)viewWillAppear:(BOOL)animated{
 
+    self.navigationController.navigationBar.hidden = NO;
+
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    self.tabBarController.tabBar.hidden = YES;
-    if (self.judg == YES) {
-        [self loadMessageDetailView:self.messageId];
-
-    }
-    
-      [self loadDetailView:self.messageId];
+    [self loadDetailView:self.cartoonsId];
     
 }
-
-
--(void)loadMessageDetailView:(NSString *)url{
-    NSString *urlStr = url;
-    [self.webView loadHTMLString:urlStr baseURL:nil];
-}
-
-
+//http://api.playsm.com/index.php?id=350&r=cartoonSet%2Fdetail&
 -(void)loadDetailView:(NSString *)url{
     NSString *urlStr = url;
+    NSString *httpUrl = @"http://api.playsm.com/index.php?&r=cartoonSet%2Fdetail&";
+    if (![url hasPrefix:@"http://"]) {
+        urlStr = [NSString stringWithFormat:@"%@id=%@",httpUrl,url];
+        NSLog(@"%@",urlStr);
+        
+    }
     NSURL *urlStr1 = [NSURL URLWithString:urlStr];
     NSURLRequest *request = [NSURLRequest requestWithURL:urlStr1];
     [self.webView loadRequest:request];
-   
 
+    
 }
 -(UIWebView *)webView{
-
+    
     if (_webView == nil) {
         self.webView = [[UIWebView alloc] initWithFrame:self.view.bounds];
         self.webView.backgroundColor = [UIColor clearColor];
@@ -58,8 +49,9 @@
         [self.view addSubview:self.webView];
     }
     return _webView;
-
+    
 }
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

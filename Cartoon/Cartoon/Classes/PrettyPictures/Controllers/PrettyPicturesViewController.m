@@ -7,6 +7,7 @@
 //
 
 #import "PrettyPicturesViewController.h"
+#import <AFNetworking/AFHTTPSessionManager.h>
 
 @interface PrettyPicturesViewController ()
 
@@ -17,6 +18,23 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self requestModel];
+}
+-(void)requestModel{
+    AFHTTPSessionManager *sessionManage = [AFHTTPSessionManager manager];
+    sessionManage.responseSerializer.acceptableContentTypes = [NSSet setWithObject:@"text/html"];
+    
+    [sessionManage GET:kPrrttyPic parameters:nil progress:^(NSProgress * _Nonnull downloadProgress) {
+        //  GYRLog(@"%lld",downloadProgress.totalUnitCount);
+    } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+        
+        NSLog(@"33333333333%@",responseObject);
+        
+                } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+        NSLog(@"222222222222%@",error);
+        
+    }];
+    
 }
 
 - (void)didReceiveMemoryWarning {

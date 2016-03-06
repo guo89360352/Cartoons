@@ -226,7 +226,7 @@
     self.pageControl.currentPageIndicatorTintColor = [UIColor cyanColor];
     [self.pageControl addTarget:self action:@selector(pageSelectAction:) forControlEvents:UIControlEventTouchUpInside];
   
-    if (self.topImageArray > 0 && self.imageArray > 0 ) {
+    if (self.topImageArray.count > 0 && self.imageArray.count > 0 ) {
         for (int i = 0; i < self.imageArray.count; i++) {
             UIImageView *imageV = [[UIImageView alloc] initWithFrame:CGRectMake(kScreenWidth * i, 0, kScreenWidth, 186)];
             [imageV sd_setImageWithURL:[NSURL URLWithString:self.imageArray[i]] placeholderImage:nil];

@@ -17,6 +17,22 @@
         self.content = dic[@"content"];
         self.imageUrl = dic[@"images"];
         self.cartoonsId = dic[@"id"];
+        self.name = dic[@"name"];
+        
+       // self.cartoonChapterList = dic[@"cartoonChapterList"];
+//        self.chapterId = dic[@"cartoonChapterList"][@"id"];
+//        self.chapterName = dic[@"cartoonChapterList"][@"name"];
+//        self.totalChapterSize = dic[@"cartoonChapterList"][@"totalChapterSize"];
+        self.author = dic[@"author"];
+        self.creatTime = dic[@"createTime"];
+        self.introduction = dic[@"introduction"];
+        self.recentUpdateTime = dic[@"recentUpdateTime"];
+        self.totalChapterCount = dic[@"totalChapterCount"];
+        self.updateInfo = dic[@"updateInfo"];
+        self.updateValue = dic[@"updateValueLabel"];
+        
+        
+        
     }
 
     return self;

@@ -118,18 +118,18 @@
         self.layout.scrollDirection = UICollectionViewScrollDirectionVertical;
         //设置每个item的大小
         if (self.cartoons == CartoonsTypeList) {
-             self.layout.itemSize = CGSizeMake(kScreenWidth/3-10, kScreenWidth/2-10);
+             self.layout.itemSize = CGSizeMake(kScreenWidth/3-10, kScreenWidth/2);
         }else{
-            self.layout.itemSize = CGSizeMake(kScreenWidth/3-10, kScreenWidth/2-10);
+            self.layout.itemSize = CGSizeMake(kScreenWidth/3-10, kScreenWidth/2);
         }
         //设置每一行间距
-        self.layout.minimumLineSpacing = 10;
+        self.layout.minimumLineSpacing = 5;
         //设置item的间距
         self.layout.minimumInteritemSpacing = 5;
         //设置section的间距
         self.layout.sectionInset = UIEdgeInsetsMake(5, 5, 5, 5);
         //设置设置区头区尾的大小
-        self.layout.headerReferenceSize = CGSizeMake(kScreenWidth, 50);
+        self.layout.headerReferenceSize = CGSizeMake(kScreenWidth, 30);
         
     
         //通过一个layout布局创建collectionView
@@ -277,40 +277,78 @@
    
 }
 
-
+//- (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath{
+//    UICollectionReusableView *headView = [collectionView dequeueReusableSupplementaryViewOfKind:kind withReuseIdentifier:@"header" forIndexPath:indexPath];
+//    UILabel *titlelabel = [[UILabel alloc]initWithFrame:CGRectMake(0, 10, kScreenWidth, 10)];
+//
+//    if (indexPath.section == 0) {
+//        titlelabel.text = @"最近最新";
+//    }else
+//    if (indexPath.section == 1) {
+//        titlelabel.text = @"小编推荐";
+//    }else
+//    if (indexPath.section == 2) {
+//        titlelabel.text = @"每周收藏";
+//    }else
+//    if (indexPath.section == 3) {
+//        titlelabel.text = @"最新上架";
+//    }
+//    
+//    [headView addSubview:titlelabel];
+//    return headView;
+//    
+//}
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     
     
      CartoonCollectionViewCell *cell = (CartoonCollectionViewCell *)[collectionView dequeueReusableCellWithReuseIdentifier:@"cell" forIndexPath:indexPath];
     if (cell) {
-        UIImageView *imageV = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, cell.frame.size.width, cell.frame.size.height-20)];
-        UILabel *textLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, cell.frame.size.height-20, cell.frame.size.width, 20)];
+//        if (self.cartoons == CartoonsTypeList) {
+//             self.layout.itemSize= CGSizeMake(kScreenWidth-1, kScreenWidth/2-10);
+//        }else{
+//          self.layout.itemSize= CGSizeMake(kScreenWidth/3-10, kScreenWidth/2-10);
+//        }
+        UIImageView *imageV = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, cell.frame.size.width, cell.frame.size.height-30)];
+        UILabel *textLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, cell.frame.size.height-30, cell.frame.size.width, 30)];
+        
         if (self.cartoons == CartoonsTypeList) {
-            
-            [self.view addSubview:self.collectionV];
             CartoonModel *model = self.listArray[indexPath.row];
             [imageV sd_setImageWithURL:[NSURL URLWithString:model.imageUrl] placeholderImage:nil];
-            textLabel.text = model.title;
+//            if (textLabel.text.length == 0) {
+//                textLabel.text = model.name;
+//            }else{
+                textLabel.text = [textLabel.text stringByReplacingOccurrencesOfString:textLabel.text withString:model.name];
+//            }
+
         }else if (self.cartoons == CartoonsTypeCategory){
             if (self.leibieArray.count > 0) {
-                
-                [self.view addSubview:self.collectionV];
 
                 CartoonModel *model = self.leibieArray[indexPath.row];
                 imageV.layer.masksToBounds = YES;
                 imageV.layer.cornerRadius = 8.0;
                 [imageV sd_setImageWithURL:[NSURL URLWithString:model.imageUrl] placeholderImage:nil];
+//                if (textLabel.text.length == 0) {
+//                    textLabel.text = model.name;
+//                }else{
+                    textLabel.text = [textLabel.text stringByReplacingOccurrencesOfString:textLabel.text withString:model.name];
+//                }
+            
+
+                
             }
             
         }else{
-//            self.layout.itemSize = CGSizeMake(kScreenWidth/3-10, kScreenWidth/2-10);
-            [self.view addSubview:self.collectionV];
-
+            if (self.allArray.count > 0) {
+                
+         
             CartoonModel *model = self.allArray[indexPath.section][indexPath.row];
             [imageV sd_setImageWithURL:[NSURL URLWithString:model.imageUrl] placeholderImage:nil];
-            textLabel.text = model.title;
-            
-            
+//            if (textLabel.text.length == 0) {
+//                textLabel.text = model.name;
+//            }else{
+            textLabel.text = [textLabel.text stringByReplacingOccurrencesOfString:textLabel.text withString:model.name];
+//            }
+            }
         }
         [cell addSubview:textLabel];
         [cell addSubview:imageV];
@@ -350,9 +388,11 @@
           
           [self.navigationController pushViewController:twoCar animated:NO];
       }else{
+          
             if (self.allArray.count > 0) {
-                CartoonModel *model = self.allArray[indexPath.row][indexPath.row];
-                detailView.cartoonsId = model.cartoonsId;
+                CartoonModel *model = self.allArray[indexPath.section][indexPath.row];
+                NSString *str = model.cartoonsId;
+                detailView.cartoonsId = str;
             }
            
             
@@ -528,6 +568,7 @@
     [self.allArray addObject:self.listArray2];
     [self.allArray addObject:self.listArray3];
     [self.allArray addObject:self.listArray4];
+  
 
 [self.view addSubview:self.collectionV];
     
@@ -663,6 +704,7 @@
             for (NSDictionary *dict in array) {
                 CartoonModel *model = [[CartoonModel alloc] initWithDic:dict];
                 [self.listArray1 addObject:model];
+
                 
             }
         }
@@ -694,7 +736,7 @@
             for (NSDictionary *dict in array) {
                 CartoonModel *model = [[CartoonModel alloc] initWithDic:dict];
                 [self.listArray2 addObject:model];
-                
+              
             }
         }
        
@@ -726,7 +768,7 @@
             for (NSDictionary *dict in array) {
                 CartoonModel *model = [[CartoonModel alloc] initWithDic:dict];
                 [self.listArray3 addObject:model];
-                
+              
             }
         }
       
@@ -756,7 +798,7 @@
             for (NSDictionary *dict in array) {
                 CartoonModel *model = [[CartoonModel alloc] initWithDic:dict];
                 [self.listArray4 addObject:model];
-                
+            
             }
         }
 
@@ -775,20 +817,20 @@
 }
 
 #pragma mark ----- 榜单
--(void)loadData1{
-
-    if (self.bangArray > 0) {
-        [self.bangArray removeAllObjects];
-    }
-    [self.bangArray addObject:self.bangArray1];
-    [self.bangArray addObject:self.bangArray2];
-    [self.bangArray addObject:self.bangArray3];
-    [self.bangArray addObject:self.bangArray4];
-    [self.bangArray addObject:self.bangArray5];
-
-    [self.view addSubview:self.collectionV];
-
-}
+//-(void)loadData1{
+//
+//    if (self.bangArray > 0) {
+//        [self.bangArray removeAllObjects];
+//    }
+//    [self.bangArray addObject:self.bangArray1];
+//    [self.bangArray addObject:self.bangArray2];
+//    [self.bangArray addObject:self.bangArray3];
+//    [self.bangArray addObject:self.bangArray4];
+//    [self.bangArray addObject:self.bangArray5];
+//
+//    [self.view addSubview:self.collectionV];
+//
+//}
 -(void)requestCartoonsList{
     AFHTTPSessionManager *sessionManage = [AFHTTPSessionManager manager];
     sessionManage.responseSerializer.acceptableContentTypes = [NSSet setWithObject:@"text/html"];
@@ -938,7 +980,7 @@
         }
         
         [self.collectionV reloadData];
-        [self loadData1];
+//        [self loadData1];
         
         
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {

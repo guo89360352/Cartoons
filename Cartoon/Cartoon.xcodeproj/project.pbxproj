@@ -66,6 +66,7 @@
 		7A7442311C897C60007EA8BD /* MessageDetailVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7442301C897C60007EA8BD /* MessageDetailVIew.m */; };
 		7A7442361C897D17007EA8BD /* UIView+Extenstin.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7442341C897D17007EA8BD /* UIView+Extenstin.m */; };
 		7A7442371C897D17007EA8BD /* UIViewController+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7442351C897D17007EA8BD /* UIViewController+Common.m */; };
+		7A8921B61C8D82E200D2E9BE /* TwoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A8921B51C8D82E200D2E9BE /* TwoDetailViewController.m */; };
 		7A93D8241C8C0373006EBB1C /* Renqi.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A93D8231C8C0373006EBB1C /* Renqi.plist */; };
 		7A93D8271C8C11AF006EBB1C /* CartoonsTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A93D8261C8C11AF006EBB1C /* CartoonsTwoViewController.m */; };
 		7A93D82A1C8C1BCE006EBB1C /* CartoonsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A93D8291C8C1BCE006EBB1C /* CartoonsDetailViewController.m */; };
@@ -177,6 +178,8 @@
 		7A7442331C897D17007EA8BD /* UIView+Extenstin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extenstin.h"; sourceTree = "<group>"; };
 		7A7442341C897D17007EA8BD /* UIView+Extenstin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extenstin.m"; sourceTree = "<group>"; };
 		7A7442351C897D17007EA8BD /* UIViewController+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Common.m"; sourceTree = "<group>"; };
+		7A8921B41C8D82E100D2E9BE /* TwoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoDetailViewController.h; sourceTree = "<group>"; };
+		7A8921B51C8D82E200D2E9BE /* TwoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoDetailViewController.m; sourceTree = "<group>"; };
 		7A93D8231C8C0373006EBB1C /* Renqi.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Renqi.plist; sourceTree = "<group>"; };
 		7A93D8251C8C11AF006EBB1C /* CartoonsTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartoonsTwoViewController.h; sourceTree = "<group>"; };
 		7A93D8261C8C11AF006EBB1C /* CartoonsTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartoonsTwoViewController.m; sourceTree = "<group>"; };
@@ -336,6 +339,8 @@
 				7A93D8261C8C11AF006EBB1C /* CartoonsTwoViewController.m */,
 				7A93D8281C8C1BCE006EBB1C /* CartoonsDetailViewController.h */,
 				7A93D8291C8C1BCE006EBB1C /* CartoonsDetailViewController.m */,
+				7A8921B41C8D82E100D2E9BE /* TwoDetailViewController.h */,
+				7A8921B51C8D82E200D2E9BE /* TwoDetailViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -827,6 +832,7 @@
 				7A0AF5501C881E7500CA01FB /* MineViewController.m in Sources */,
 				7A93D8271C8C11AF006EBB1C /* CartoonsTwoViewController.m in Sources */,
 				7A7442291C8928CD007EA8BD /* HWTool.m in Sources */,
+				7A8921B61C8D82E200D2E9BE /* TwoDetailViewController.m in Sources */,
 				7A0AF5531C881E8300CA01FB /* CartoonViewController.m in Sources */,
 				7A93D8621C8C5696006EBB1C /* MJRefreshBackStateFooter.m in Sources */,
 				7A93D85E1C8C5696006EBB1C /* MJRefreshAutoNormalFooter.m in Sources */,

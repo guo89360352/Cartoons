@@ -19,10 +19,16 @@
 
 @interface CartoonsTwoViewController ()<UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout>
 
+{
+
+    NSInteger _pageCount;
+
+}
+
 @property (nonatomic, strong) NSMutableArray *listArray;
 @property (nonatomic, strong) UICollectionView *collectionV;
 
-
+@property (nonatomic, assign) BOOL refreshing;
 @property (nonatomic, strong) NSMutableArray *imageArray;
 
 @property (nonatomic, strong) VOSegmentedControl *segmentC;
@@ -47,6 +53,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
        self.listArray = [NSMutableArray new];
+    _pageCount = 1;
     if (self.cartoonsType == CartoonsTypeList) {
         [self requestCartoonsList];
 
@@ -56,12 +63,18 @@
     }
     
     self.collectionV.mj_header = [MJRefreshNormalHeader headerWithRefreshingBlock:^{
+        self.refreshing = YES;
         [self.collectionV.mj_header beginRefreshing];
         [self.collectionV.mj_header endRefreshing];
     }];
     self.collectionV.mj_footer = [MJRefreshAutoFooter footerWithRefreshingBlock:^{
+        
         [self.collectionV.mj_footer beginRefreshing];
+        _pageCount +=1;
+        self.refreshing = NO;
         [self.collectionV.mj_footer endRefreshing];
+        [self requestCartoonsList];
+
     }];
 
 }
@@ -168,7 +181,7 @@
     AFHTTPSessionManager *sessionManage = [AFHTTPSessionManager manager];
     sessionManage.responseSerializer.acceptableContentTypes = [NSSet setWithObject:@"text/html"];
     
-    [sessionManage GET:[NSString stringWithFormat:@"%@&id=%@",kLieiBie,self.cartoonsId] parameters:nil progress:^(NSProgress * _Nonnull downloadProgress) {
+    [sessionManage GET:[NSString stringWithFormat:@"%@&id=%@&page=%ld",kLieiBie,self.cartoonsId,_pageCount] parameters:nil progress:^(NSProgress * _Nonnull downloadProgress) {
         //  GYRLog(@"%lld",downloadProgress.totalUnitCount);
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         NSDictionary *dic = responseObject;
@@ -176,8 +189,11 @@
         NSArray *array = dic[@"results"];
         NSInteger code = [dic[@"code"] integerValue];
         if (code == 0) {
-            if (self.listArray > 0) {
-                [self.listArray removeAllObjects];
+            if (self.refreshing) {
+                if (self.listArray > 0) {
+                    [self.listArray removeAllObjects];
+                }
+                
             }
             
             for (NSDictionary *dict in array) {
@@ -203,7 +219,8 @@
     AFHTTPSessionManager *sessionManage = [AFHTTPSessionManager manager];
     sessionManage.responseSerializer.acceptableContentTypes = [NSSet setWithObject:@"text/html"];
     
-    [sessionManage GET:[NSString stringWithFormat:@"%@&id=%@",kRenqi,self.cartoonsId] parameters:nil progress:^(NSProgress * _Nonnull downloadProgress) {
+           [sessionManage GET:[NSString stringWithFormat:@"%@&id=%@&page=%ld",kRenqi,self.cartoonsId,_pageCount] parameters:nil progress:^(NSProgress * _Nonnull downloadProgress) {
+               
         //  GYRLog(@"%lld",downloadProgress.totalUnitCount);
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         NSDictionary *dic = responseObject;
@@ -211,10 +228,13 @@
         NSArray *array = dic[@"results"];
         NSInteger code = [dic[@"code"] integerValue];
         if (code == 0) {
-            if (self.listArray > 0) {
-                [self.listArray removeAllObjects];
+           
+            if (self.refreshing) {
+                if (self.listArray > 0) {
+                    [self.listArray removeAllObjects];
+                }
+
             }
-            
             for (NSDictionary *dict in array) {
                 CartoonModel *model = [[CartoonModel alloc] initWithDic:dict];
                 [self.listArray addObject:model];

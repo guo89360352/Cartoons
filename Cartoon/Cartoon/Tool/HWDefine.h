@@ -17,7 +17,15 @@ typedef NS_ENUM(NSInteger,CartoonsType) {
 };
 
 
+//http://api.playsm.com/index.php?chapterId=9410&isSize=1&page=1&orderType=1&r=cartoonChapter%2FalbumList&size=10&
 
+//http://api.playsm.com/index.php?chapterId=10158&isSize=1&page=1&orderType=1&r=cartoonChapter%2FalbumList&size=10&
+//http://api.playsm.com/index.php?chapterId=10801&isSize=1&page=1&orderType=1&r=cartoonChapter%2FalbumList&size=10&
+//http://api.playsm.com/index.php?chapterId=8995&isSize=1&page=1&orderType=1&r=cartoonChapter%2FalbumList&size=10&
+#define kCapter @"http://api.playsm.com/index.php?isSize=1&page=1&orderType=1&r=cartoonChapter%2FalbumList&size=10&"
+//chapterId=8995&
+#define kCartoons @"http://api.playsm.com/index.php?&r=cartoonSet%2Fdetail&"
+//id=325
 #define kMessage @"http://api.playsm.com/index.php?page=1&r=adImage%2Flist&customPosition=1&size=999&"
 
 #define kM @"http://api.playsm.com/index.php?page=1&r=message%2Flist&size=10&"

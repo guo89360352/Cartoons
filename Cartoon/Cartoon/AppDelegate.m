@@ -7,17 +7,48 @@
 //
 
 #import "AppDelegate.h"
+#import "WeiboSDK.h"
+#import "WXApi.h"
+#import "WXApiObject.h"
+#import <BmobSDK/Bmob.h>
 
-@interface AppDelegate ()
+@interface AppDelegate ()<WeiboSDKDelegate,WXApiDelegate>
 
+@end
+@interface WBBaseRequest ()
+-(void)debugPrint;
+@end
+@interface WBBaseResponse ()
+-(void)debugPrint;
 @end
 
 @implementation AppDelegate
-
+@synthesize wbtoken;
+@synthesize wbCurrentUserID;
+@synthesize wbRefreshToken;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    
+    //微博  微信 
+    
+    [WeiboSDK enableDebugMode:YES];
+    [WeiboSDK registerApp:@"1986762279"];
+    
+    [WXApi registerApp:@"wx35bb644b40744d79"];
+    
+    [Bmob registerWithAppKey:@"4727c8d874e98c2f7e8f827a9b78e2b1"];
+
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     self.tabBC = [[UITabBarController alloc] init];
@@ -77,6 +108,38 @@
     [self.window makeKeyAndVisible];
     return YES;
 }
+-(BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation{
+    if([WeiboSDK isCanSSOInWeiboApp]){
+        
+        return [WeiboSDK handleOpenURL:url delegate:self];
+        
+    }
+    return [WXApi handleOpenURL:url delegate:self];
+}
+-(BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url{
+    
+    if([WeiboSDK isCanSSOInWeiboApp]){
+        
+        return [WeiboSDK handleOpenURL:url delegate:self];
+        
+    }
+    
+    
+    return [WXApi handleOpenURL:url delegate:self];
+    
+    
+    
+}
+-(void)didReceiveWeiboRequest:(WBBaseRequest *)request{
+    
+}
+-(void)didReceiveWeiboResponse:(WBBaseResponse *)response{
+    
+    
+}
+
+
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

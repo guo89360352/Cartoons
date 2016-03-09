@@ -26,6 +26,12 @@
 @property (nonatomic, strong) NSString *chapterName;
 @property (nonatomic, strong) NSString *totalChapterSize;
 @property (nonatomic, strong) NSArray *cartoonChapterList;
+@property (nonatomic, strong) NSString *imgWidth;
+@property (nonatomic, strong) NSString *imgHeight;
+
+@property (nonatomic, strong) NSString *informCount;
+@property (nonatomic, assign) CGSize size;
+
 
 
 

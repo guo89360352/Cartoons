@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Cartoons Detail View Controller-->
+        <scene sceneID="Hhg-fy-i9j">
+            <objects>
+                <viewController storyboardIdentifier="zhang" id="KB7-H6-JQa" customClass="CartoonsDetailViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MdK-4I-wGh"/>
+                        <viewControllerLayoutGuide type="bottom" id="ATa-EV-gHB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NDs-k8-JWZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LNK-pj-XSs">
+                                <rect key="frame" x="135" y="186" width="105" height="37"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="        加入收藏">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2pw-U7-fu3">
+                                <rect key="frame" x="135" y="73" width="240" height="37"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rDu-XK-PeK">
+                                <rect key="frame" x="8" y="336" width="176" height="41"/>
+                                <color key="backgroundColor" red="1" green="0.67557980399999995" blue="0.6365833165" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="目录">
+                                    <color key="titleColor" red="0.9418945312" green="0.9418945312" blue="0.9418945312" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" 目录" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gyP-KQ-hu0">
+                                <rect key="frame" x="8" y="227" width="367" height="84"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sv0-13-iD5">
+                                <rect key="frame" x="140" y="190" width="28" height="29"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="连载" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2V1-IF-wEQ">
+                                <rect key="frame" x="8" y="311" width="118" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Q6-qi-ABB">
+                                <rect key="frame" x="192" y="336" width="175" height="41"/>
+                                <color key="backgroundColor" red="1" green="0.67557980399999995" blue="0.6365833165" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="评论">
+                                    <color key="titleColor" red="0.9418945312" green="0.9418945312" blue="0.9418945312" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oDL-l2-0DJ">
+                                <rect key="frame" x="248" y="186" width="119" height="37"/>
+                                <color key="backgroundColor" red="1" green="0.59375001729999999" blue="0.5633764778" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="继续撸">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="X8R-bs-j9E">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="184"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xcm-wm-clY">
+                                        <rect key="frame" x="135" y="129" width="240" height="33"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="author" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lTl-NT-Rcg">
+                                        <rect key="frame" x="135" y="105" width="240" height="27"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" red="0.85014960110000004" green="0.85014960110000004" blue="0.85014960110000004" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="APP-Bm-h5W">
+                                        <rect key="frame" x="8" y="77" width="124" height="153"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="gengxintime" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uSD-2H-s1h">
+                                        <rect key="frame" x="135" y="157" width="240" height="27"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.85014960110000004" green="0.27430343080000003" blue="0.2409212074" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0020777925530000001" green="0.0020777925530000001" blue="0.0020777925530000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="authorLabel" destination="lTl-NT-Rcg" id="Egj-sg-hsW"/>
+                        <outlet property="contentLabel" destination="gyP-KQ-hu0" id="MAw-a2-hWL"/>
+                        <outlet property="coverImage" destination="APP-Bm-h5W" id="EfD-xf-rbV"/>
+                        <outlet property="gengxinLabel" destination="uSD-2H-s1h" id="744-NW-dut"/>
+                        <outlet property="luBtn" destination="oDL-l2-0DJ" id="N69-Py-lgI"/>
+                        <outlet property="muluBtn" destination="rDu-XK-PeK" id="8BS-5r-Zot"/>
+                        <outlet property="pinglunBtn" destination="1Q6-qi-ABB" id="Pjl-aG-NQa"/>
+                        <outlet property="shouBtn" destination="LNK-pj-XSs" id="Aav-fG-mux"/>
+                        <outlet property="timeLabel" destination="Xcm-wm-clY" id="JO7-Ls-tca"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ArG-3g-Klk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="553.5" y="321.5"/>
+        </scene>
+    </scenes>
+</document>

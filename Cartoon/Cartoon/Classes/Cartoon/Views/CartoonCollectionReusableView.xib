@@ -52,14 +52,14 @@
                     </state>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eMO-fb-hRj">
-                    <rect key="frame" x="248" y="186" width="114" height="37"/>
+                    <rect key="frame" x="248" y="186" width="119" height="37"/>
                     <color key="backgroundColor" red="1" green="0.59375001734505539" blue="0.56337647775860722" alpha="1" colorSpace="calibratedRGB"/>
                     <state key="normal" title="继续撸">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </state>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" 目录" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vBV-3d-MLZ">
-                    <rect key="frame" x="8" y="227" width="359" height="76"/>
+                    <rect key="frame" x="8" y="227" width="367" height="84"/>
                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -69,11 +69,25 @@
                     <rect key="frame" x="140" y="190" width="28" height="29"/>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="连载" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p9c-uL-71x">
-                    <rect key="frame" x="8" y="301" width="118" height="34"/>
+                    <rect key="frame" x="8" y="311" width="118" height="24"/>
                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9qB-oT-gc5">
+                    <rect key="frame" x="8" y="336" width="176" height="41"/>
+                    <color key="backgroundColor" red="1" green="0.67557980399999995" blue="0.6365833165" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="目录">
+                        <color key="titleColor" red="0.9418945312" green="0.9418945312" blue="0.9418945312" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R7W-FA-nqc">
+                    <rect key="frame" x="192" y="336" width="175" height="41"/>
+                    <color key="backgroundColor" red="1" green="0.67557980399999995" blue="0.6365833165" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="评论">
+                        <color key="titleColor" red="0.9418945312" green="0.9418945312" blue="0.9418945312" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
             </subviews>
             <color key="backgroundColor" red="0.94189453125" green="0.94189453125" blue="0.94189453125" alpha="1" colorSpace="calibratedRGB"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
@@ -82,11 +96,13 @@
                 <outlet property="caverImage" destination="YOV-oR-moa" id="8DM-hJ-D1Y"/>
                 <outlet property="gengxinLabel" destination="zwo-kf-cs9" id="XM2-wR-TxO"/>
                 <outlet property="introductionLabel" destination="vBV-3d-MLZ" id="HkR-yU-huz"/>
+                <outlet property="muluBtn" destination="9qB-oT-gc5" id="qbc-OU-E3y"/>
+                <outlet property="pinglunBtn" destination="R7W-FA-nqc" id="Odq-5X-rhV"/>
                 <outlet property="shouCangBtn" destination="le7-xP-hsi" id="hxj-Di-Mr7"/>
                 <outlet property="timeLabel" destination="5eN-Jb-OgY" id="uud-1U-feG"/>
                 <outlet property="titleLabel" destination="WPS-zY-dFL" id="jXg-95-br7"/>
             </connections>
-            <point key="canvasLocation" x="556.5" y="382.5"/>
+            <point key="canvasLocation" x="132.5" y="354.5"/>
         </view>
     </objects>
 </document>

@@ -90,6 +90,39 @@
 		7A93D8691C8C5696006EBB1C /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A93D8551C8C5696006EBB1C /* UIScrollView+MJRefresh.m */; };
 		7A93D86A1C8C5696006EBB1C /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A93D8571C8C5696006EBB1C /* UIView+MJExtension.m */; };
 		7A93D86D1C8C5A31006EBB1C /* CartoonCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A93D86C1C8C5A31006EBB1C /* CartoonCollectionViewCell.m */; };
+		7AB4E50B1C8F0D6400B64893 /* CartoonsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB4E5091C8F0D6400B64893 /* CartoonsCollectionViewCell.m */; };
+		7AB4E50C1C8F0D6400B64893 /* CartoonsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AB4E50A1C8F0D6400B64893 /* CartoonsCollectionViewCell.xib */; };
+		7ABA52A81C8E610700EE5E59 /* libWeiboSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABA529C1C8E610700EE5E59 /* libWeiboSDK.a */; };
+		7ABA52A91C8E610700EE5E59 /* WeiboSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7ABA52A51C8E610700EE5E59 /* WeiboSDK.bundle */; };
+		7ABA52B61C8E611300EE5E59 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 7ABA52AB1C8E611300EE5E59 /* .gitignore */; };
+		7ABA52B71C8E611300EE5E59 /* Bmob_iOS_SDK更新历史.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7ABA52AC1C8E611300EE5E59 /* Bmob_iOS_SDK更新历史.txt */; };
+		7ABA52B81C8E611300EE5E59 /* BmobSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABA52AD1C8E611300EE5E59 /* BmobSDK.framework */; };
+		7ABA52B91C8E611300EE5E59 /* finish.png in Resources */ = {isa = PBXBuildFile; fileRef = 7ABA52AF1C8E611300EE5E59 /* finish.png */; };
+		7ABA52BA1C8E611300EE5E59 /* install.png in Resources */ = {isa = PBXBuildFile; fileRef = 7ABA52B01C8E611300EE5E59 /* install.png */; };
+		7ABA52BB1C8E611300EE5E59 /* podfile.png in Resources */ = {isa = PBXBuildFile; fileRef = 7ABA52B11C8E611300EE5E59 /* podfile.png */; };
+		7ABA52BC1C8E611300EE5E59 /* project.png in Resources */ = {isa = PBXBuildFile; fileRef = 7ABA52B21C8E611300EE5E59 /* project.png */; };
+		7ABA52BD1C8E611300EE5E59 /* InstallCocoaPods.md in Sources */ = {isa = PBXBuildFile; fileRef = 7ABA52B31C8E611300EE5E59 /* InstallCocoaPods.md */; };
+		7ABA52BE1C8E611300EE5E59 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 7ABA52B41C8E611300EE5E59 /* LICENSE */; };
+		7ABA52BF1C8E611300EE5E59 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 7ABA52B51C8E611300EE5E59 /* README.md */; };
+		7ABA52C21C8E683C00EE5E59 /* ShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABA52C11C8E683C00EE5E59 /* ShareView.m */; };
+		7ABA52C71C8E691900EE5E59 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7ABA52C41C8E691900EE5E59 /* ProgressHUD.bundle */; };
+		7ABA52C81C8E691900EE5E59 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABA52C61C8E691900EE5E59 /* ProgressHUD.m */; };
+		7ABA52CF1C8E6B2100EE5E59 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABA52CA1C8E6B2100EE5E59 /* libWeChatSDK.a */; };
+		7ABA52D01C8E6B2100EE5E59 /* read_me.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7ABA52CB1C8E6B2100EE5E59 /* read_me.txt */; };
+		7AE59B711C8FBF4500851FD4 /* mangoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE59B701C8FBF4500851FD4 /* mangoView.m */; };
+		7AEB96CB1C8FF6BA006603B0 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AEB96CA1C8FF6BA006603B0 /* LoginViewController.m */; };
+		7AEB96CD1C8FF6CD006603B0 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AEB96CC1C8FF6CD006603B0 /* Login.storyboard */; };
+		7AEB96D01C900F66006603B0 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AEB96CF1C900F66006603B0 /* RegisterViewController.m */; };
+		7AEB96D31C9019C4006603B0 /* MyLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AEB96D21C9019C4006603B0 /* MyLayout.m */; };
+		7AEB96D91C901E16006603B0 /* PictureDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AEB96D81C901E16006603B0 /* PictureDetailViewController.m */; };
+		7AEB97031C904D3C006603B0 /* PictureCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AEB97011C904D3C006603B0 /* PictureCollectionViewCell.m */; };
+		7AEB97041C904D3C006603B0 /* PictureCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AEB97021C904D3C006603B0 /* PictureCollectionViewCell.xib */; };
+		7AEB97071C905550006603B0 /* AoiroSoraLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AEB97061C905550006603B0 /* AoiroSoraLayout.m */; };
+		7AEB970A1C90578D006603B0 /* BLImageSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AEB97091C90578D006603B0 /* BLImageSize.m */; };
+		7AEB970D1C905F21006603B0 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AEB970C1C905F21006603B0 /* DetailViewController.m */; };
+		7AFD1E0F1C8ED40B0050A1B7 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AFD1E0E1C8ED40B0050A1B7 /* Storyboard.storyboard */; };
+		7AFD1E131C8EF6D40050A1B7 /* DetailCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFD1E111C8EF6D40050A1B7 /* DetailCollectionViewCell.m */; };
+		7AFD1E141C8EF6D40050A1B7 /* DetailCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AFD1E121C8EF6D40050A1B7 /* DetailCollectionViewCell.xib */; };
 		F72BDCD557829F409A0EFC55 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C4D464CD620CC7D567CE6DD /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -225,6 +258,65 @@
 		7A93D8571C8C5696006EBB1C /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
 		7A93D86B1C8C5A31006EBB1C /* CartoonCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartoonCollectionViewCell.h; sourceTree = "<group>"; };
 		7A93D86C1C8C5A31006EBB1C /* CartoonCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartoonCollectionViewCell.m; sourceTree = "<group>"; };
+		7AB4E5081C8F0D6400B64893 /* CartoonsCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartoonsCollectionViewCell.h; sourceTree = "<group>"; };
+		7AB4E5091C8F0D6400B64893 /* CartoonsCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartoonsCollectionViewCell.m; sourceTree = "<group>"; };
+		7AB4E50A1C8F0D6400B64893 /* CartoonsCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CartoonsCollectionViewCell.xib; sourceTree = "<group>"; };
+		7ABA529C1C8E610700EE5E59 /* libWeiboSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeiboSDK.a; sourceTree = "<group>"; };
+		7ABA529D1C8E610700EE5E59 /* WBHttpRequest+WeiboGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WBHttpRequest+WeiboGame.h"; sourceTree = "<group>"; };
+		7ABA529E1C8E610700EE5E59 /* WBHttpRequest+WeiboShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WBHttpRequest+WeiboShare.h"; sourceTree = "<group>"; };
+		7ABA529F1C8E610700EE5E59 /* WBHttpRequest+WeiboToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WBHttpRequest+WeiboToken.h"; sourceTree = "<group>"; };
+		7ABA52A01C8E610700EE5E59 /* WBHttpRequest+WeiboUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WBHttpRequest+WeiboUser.h"; sourceTree = "<group>"; };
+		7ABA52A11C8E610700EE5E59 /* WBHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBHttpRequest.h; sourceTree = "<group>"; };
+		7ABA52A21C8E610700EE5E59 /* WBSDKBasicButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBSDKBasicButton.h; sourceTree = "<group>"; };
+		7ABA52A31C8E610700EE5E59 /* WBSDKCommentButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBSDKCommentButton.h; sourceTree = "<group>"; };
+		7ABA52A41C8E610700EE5E59 /* WBSDKRelationshipButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBSDKRelationshipButton.h; sourceTree = "<group>"; };
+		7ABA52A51C8E610700EE5E59 /* WeiboSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WeiboSDK.bundle; sourceTree = "<group>"; };
+		7ABA52A61C8E610700EE5E59 /* WeiboSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboSDK.h; sourceTree = "<group>"; };
+		7ABA52A71C8E610700EE5E59 /* WeiboUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboUser.h; sourceTree = "<group>"; };
+		7ABA52AB1C8E611300EE5E59 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		7ABA52AC1C8E611300EE5E59 /* Bmob_iOS_SDK更新历史.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bmob_iOS_SDK更新历史.txt"; sourceTree = "<group>"; };
+		7ABA52AD1C8E611300EE5E59 /* BmobSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BmobSDK.framework; sourceTree = "<group>"; };
+		7ABA52AF1C8E611300EE5E59 /* finish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = finish.png; sourceTree = "<group>"; };
+		7ABA52B01C8E611300EE5E59 /* install.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = install.png; sourceTree = "<group>"; };
+		7ABA52B11C8E611300EE5E59 /* podfile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = podfile.png; sourceTree = "<group>"; };
+		7ABA52B21C8E611300EE5E59 /* project.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = project.png; sourceTree = "<group>"; };
+		7ABA52B31C8E611300EE5E59 /* InstallCocoaPods.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = InstallCocoaPods.md; sourceTree = "<group>"; };
+		7ABA52B41C8E611300EE5E59 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		7ABA52B51C8E611300EE5E59 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7ABA52C01C8E683C00EE5E59 /* ShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareView.h; sourceTree = "<group>"; };
+		7ABA52C11C8E683C00EE5E59 /* ShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareView.m; sourceTree = "<group>"; };
+		7ABA52C41C8E691900EE5E59 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		7ABA52C51C8E691900EE5E59 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		7ABA52C61C8E691900EE5E59 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		7ABA52CA1C8E6B2100EE5E59 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		7ABA52CB1C8E6B2100EE5E59 /* read_me.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = read_me.txt; sourceTree = "<group>"; };
+		7ABA52CC1C8E6B2100EE5E59 /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		7ABA52CD1C8E6B2100EE5E59 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		7ABA52CE1C8E6B2100EE5E59 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		7AE59B6F1C8FBF4500851FD4 /* mangoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mangoView.h; sourceTree = "<group>"; };
+		7AE59B701C8FBF4500851FD4 /* mangoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mangoView.m; sourceTree = "<group>"; };
+		7AEB96C91C8FF6BA006603B0 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		7AEB96CA1C8FF6BA006603B0 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		7AEB96CC1C8FF6CD006603B0 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		7AEB96CE1C900F66006603B0 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		7AEB96CF1C900F66006603B0 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		7AEB96D11C9019C4006603B0 /* MyLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLayout.h; sourceTree = "<group>"; };
+		7AEB96D21C9019C4006603B0 /* MyLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLayout.m; sourceTree = "<group>"; };
+		7AEB96D71C901E16006603B0 /* PictureDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureDetailViewController.h; sourceTree = "<group>"; };
+		7AEB96D81C901E16006603B0 /* PictureDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureDetailViewController.m; sourceTree = "<group>"; };
+		7AEB97001C904D3C006603B0 /* PictureCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureCollectionViewCell.h; sourceTree = "<group>"; };
+		7AEB97011C904D3C006603B0 /* PictureCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureCollectionViewCell.m; sourceTree = "<group>"; };
+		7AEB97021C904D3C006603B0 /* PictureCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PictureCollectionViewCell.xib; sourceTree = "<group>"; };
+		7AEB97051C905550006603B0 /* AoiroSoraLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AoiroSoraLayout.h; sourceTree = "<group>"; };
+		7AEB97061C905550006603B0 /* AoiroSoraLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AoiroSoraLayout.m; sourceTree = "<group>"; };
+		7AEB97081C90578D006603B0 /* BLImageSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLImageSize.h; sourceTree = "<group>"; };
+		7AEB97091C90578D006603B0 /* BLImageSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLImageSize.m; sourceTree = "<group>"; };
+		7AEB970B1C905F21006603B0 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		7AEB970C1C905F21006603B0 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		7AFD1E0E1C8ED40B0050A1B7 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = ../Controllers/Storyboard.storyboard; sourceTree = "<group>"; };
+		7AFD1E101C8EF6D40050A1B7 /* DetailCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailCollectionViewCell.h; sourceTree = "<group>"; };
+		7AFD1E111C8EF6D40050A1B7 /* DetailCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailCollectionViewCell.m; sourceTree = "<group>"; };
+		7AFD1E121C8EF6D40050A1B7 /* DetailCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailCollectionViewCell.xib; sourceTree = "<group>"; };
 		C8F69CDB9778583798406AD9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -243,14 +335,17 @@
 				7A0AF5721C8852E900CA01FB /* ImageIO.framework in Frameworks */,
 				7A0AF5701C8852E000CA01FB /* SystemConfiguration.framework in Frameworks */,
 				7A0AF56E1C8852D600CA01FB /* Security.framework in Frameworks */,
+				7ABA52A81C8E610700EE5E59 /* libWeiboSDK.a in Frameworks */,
 				7A0AF56C1C8852CE00CA01FB /* CoreTelephony.framework in Frameworks */,
 				7A0AF56A1C8852C600CA01FB /* CoreText.framework in Frameworks */,
 				7A0AF5681C8852BD00CA01FB /* UIKit.framework in Frameworks */,
+				7ABA52CF1C8E6B2100EE5E59 /* libWeChatSDK.a in Frameworks */,
 				7A0AF5661C8852B400CA01FB /* Foundation.framework in Frameworks */,
 				7A0AF5641C88529F00CA01FB /* CFNetwork.framework in Frameworks */,
 				7A0AF5621C88529500CA01FB /* MediaPlayer.framework in Frameworks */,
 				7A0AF5601C88528500CA01FB /* CoreGraphics.framework in Frameworks */,
 				F72BDCD557829F409A0EFC55 /* libPods.a in Frameworks */,
+				7ABA52B81C8E611300EE5E59 /* BmobSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,11 +462,18 @@
 			isa = PBXGroup;
 			children = (
 				7A0AF5571C881EB600CA01FB /* Cartoon.storyboard */,
+				7AFD1E0E1C8ED40B0050A1B7 /* Storyboard.storyboard */,
 				7A694BB51C8AB2C300597936 /* CartoonCollectionReusableView.h */,
 				7A694BB61C8AB2C300597936 /* CartoonCollectionReusableView.m */,
 				7A694BB71C8AB2C300597936 /* CartoonCollectionReusableView.xib */,
 				7A93D86B1C8C5A31006EBB1C /* CartoonCollectionViewCell.h */,
 				7A93D86C1C8C5A31006EBB1C /* CartoonCollectionViewCell.m */,
+				7AFD1E101C8EF6D40050A1B7 /* DetailCollectionViewCell.h */,
+				7AFD1E111C8EF6D40050A1B7 /* DetailCollectionViewCell.m */,
+				7AFD1E121C8EF6D40050A1B7 /* DetailCollectionViewCell.xib */,
+				7AB4E5081C8F0D6400B64893 /* CartoonsCollectionViewCell.h */,
+				7AB4E5091C8F0D6400B64893 /* CartoonsCollectionViewCell.m */,
+				7AB4E50A1C8F0D6400B64893 /* CartoonsCollectionViewCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -437,6 +539,10 @@
 			children = (
 				7A0AF54E1C881E7500CA01FB /* MineViewController.h */,
 				7A0AF54F1C881E7500CA01FB /* MineViewController.m */,
+				7AEB96C91C8FF6BA006603B0 /* LoginViewController.h */,
+				7AEB96CA1C8FF6BA006603B0 /* LoginViewController.m */,
+				7AEB96CE1C900F66006603B0 /* RegisterViewController.h */,
+				7AEB96CF1C900F66006603B0 /* RegisterViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -452,6 +558,7 @@
 			isa = PBXGroup;
 			children = (
 				7A0AF55B1C881ED200CA01FB /* Mine.storyboard */,
+				7AEB96CC1C8FF6CD006603B0 /* Login.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -471,6 +578,10 @@
 			children = (
 				7A0AF5541C881E9600CA01FB /* PrettyPicturesViewController.h */,
 				7A0AF5551C881E9600CA01FB /* PrettyPicturesViewController.m */,
+				7AEB96D71C901E16006603B0 /* PictureDetailViewController.h */,
+				7AEB96D81C901E16006603B0 /* PictureDetailViewController.m */,
+				7AEB970B1C905F21006603B0 /* DetailViewController.h */,
+				7AEB970C1C905F21006603B0 /* DetailViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -487,6 +598,9 @@
 			isa = PBXGroup;
 			children = (
 				7A0AF55D1C881EE800CA01FB /* PrettyPictures.storyboard */,
+				7AEB97001C904D3C006603B0 /* PictureCollectionViewCell.h */,
+				7AEB97011C904D3C006603B0 /* PictureCollectionViewCell.m */,
+				7AEB97021C904D3C006603B0 /* PictureCollectionViewCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -494,6 +608,10 @@
 		7A0AF5491C881E1900CA01FB /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				7ABA52C91C8E6B2100EE5E59 /* SDK1.6.2 */,
+				7ABA52C31C8E691900EE5E59 /* ProgressHUD */,
+				7ABA52AA1C8E611300EE5E59 /* bmob-ios-sdk */,
+				7ABA529B1C8E610700EE5E59 /* libWeiboSDK */,
 				7A93D82B1C8C5696006EBB1C /* MJRefreshs */,
 				7A694B9F1C8A85F600597936 /* VOSegmentedControl */,
 				7A74421F1C8927C4007EA8BD /* PullingRefreshTableView */,
@@ -505,7 +623,15 @@
 		7A0AF54A1C881E1900CA01FB /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				7AEB97051C905550006603B0 /* AoiroSoraLayout.h */,
+				7AEB97061C905550006603B0 /* AoiroSoraLayout.m */,
+				7AEB97081C90578D006603B0 /* BLImageSize.h */,
+				7AEB97091C90578D006603B0 /* BLImageSize.m */,
+				7AEB96D11C9019C4006603B0 /* MyLayout.h */,
+				7AEB96D21C9019C4006603B0 /* MyLayout.m */,
 				7A0AF5811C8853CF00CA01FB /* HWDefine.h */,
+				7AE59B6F1C8FBF4500851FD4 /* mangoView.h */,
+				7AE59B701C8FBF4500851FD4 /* mangoView.m */,
 				7A0AF5821C8854FE00CA01FB /* PrefixHeader.pch */,
 				7A7442271C8928C6007EA8BD /* HWTool.h */,
 				7A7442281C8928CD007EA8BD /* HWTool.m */,
@@ -513,6 +639,8 @@
 				7A7442351C897D17007EA8BD /* UIViewController+Common.m */,
 				7A7442331C897D17007EA8BD /* UIView+Extenstin.h */,
 				7A7442341C897D17007EA8BD /* UIView+Extenstin.m */,
+				7ABA52C01C8E683C00EE5E59 /* ShareView.h */,
+				7ABA52C11C8E683C00EE5E59 /* ShareView.m */,
 			);
 			name = Tool;
 			path = Cartoon/Tool;
@@ -638,6 +766,72 @@
 			path = Header;
 			sourceTree = "<group>";
 		};
+		7ABA529B1C8E610700EE5E59 /* libWeiboSDK */ = {
+			isa = PBXGroup;
+			children = (
+				7ABA529C1C8E610700EE5E59 /* libWeiboSDK.a */,
+				7ABA529D1C8E610700EE5E59 /* WBHttpRequest+WeiboGame.h */,
+				7ABA529E1C8E610700EE5E59 /* WBHttpRequest+WeiboShare.h */,
+				7ABA529F1C8E610700EE5E59 /* WBHttpRequest+WeiboToken.h */,
+				7ABA52A01C8E610700EE5E59 /* WBHttpRequest+WeiboUser.h */,
+				7ABA52A11C8E610700EE5E59 /* WBHttpRequest.h */,
+				7ABA52A21C8E610700EE5E59 /* WBSDKBasicButton.h */,
+				7ABA52A31C8E610700EE5E59 /* WBSDKCommentButton.h */,
+				7ABA52A41C8E610700EE5E59 /* WBSDKRelationshipButton.h */,
+				7ABA52A51C8E610700EE5E59 /* WeiboSDK.bundle */,
+				7ABA52A61C8E610700EE5E59 /* WeiboSDK.h */,
+				7ABA52A71C8E610700EE5E59 /* WeiboUser.h */,
+			);
+			path = libWeiboSDK;
+			sourceTree = "<group>";
+		};
+		7ABA52AA1C8E611300EE5E59 /* bmob-ios-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				7ABA52AB1C8E611300EE5E59 /* .gitignore */,
+				7ABA52AC1C8E611300EE5E59 /* Bmob_iOS_SDK更新历史.txt */,
+				7ABA52AD1C8E611300EE5E59 /* BmobSDK.framework */,
+				7ABA52AE1C8E611300EE5E59 /* images */,
+				7ABA52B31C8E611300EE5E59 /* InstallCocoaPods.md */,
+				7ABA52B41C8E611300EE5E59 /* LICENSE */,
+				7ABA52B51C8E611300EE5E59 /* README.md */,
+			);
+			path = "bmob-ios-sdk";
+			sourceTree = "<group>";
+		};
+		7ABA52AE1C8E611300EE5E59 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				7ABA52AF1C8E611300EE5E59 /* finish.png */,
+				7ABA52B01C8E611300EE5E59 /* install.png */,
+				7ABA52B11C8E611300EE5E59 /* podfile.png */,
+				7ABA52B21C8E611300EE5E59 /* project.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		7ABA52C31C8E691900EE5E59 /* ProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				7ABA52C41C8E691900EE5E59 /* ProgressHUD.bundle */,
+				7ABA52C51C8E691900EE5E59 /* ProgressHUD.h */,
+				7ABA52C61C8E691900EE5E59 /* ProgressHUD.m */,
+			);
+			path = ProgressHUD;
+			sourceTree = "<group>";
+		};
+		7ABA52C91C8E6B2100EE5E59 /* SDK1.6.2 */ = {
+			isa = PBXGroup;
+			children = (
+				7ABA52CA1C8E6B2100EE5E59 /* libWeChatSDK.a */,
+				7ABA52CB1C8E6B2100EE5E59 /* read_me.txt */,
+				7ABA52CC1C8E6B2100EE5E59 /* WechatAuthSDK.h */,
+				7ABA52CD1C8E6B2100EE5E59 /* WXApi.h */,
+				7ABA52CE1C8E6B2100EE5E59 /* WXApiObject.h */,
+			);
+			path = SDK1.6.2;
+			sourceTree = "<group>";
+		};
 		B6801679FEF6DDDA80E600F2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -727,27 +921,42 @@
 				7A694BBF1C8AC83600597936 /* ZuiJIn.plist in Resources */,
 				7A694BBD1C8AC7CD00597936 /* MeiZhou.plist in Resources */,
 				7A694BAF1C8A902500597936 /* bangdan.plist in Resources */,
+				7AFD1E141C8EF6D40050A1B7 /* DetailCollectionViewCell.xib in Resources */,
 				7A694B9C1C8A806300597936 /* Property List.plist in Resources */,
+				7ABA52D01C8E6B2100EE5E59 /* read_me.txt in Resources */,
 				7A694BB11C8A905500597936 /* TuiJian.plist in Resources */,
 				7A0AF5881C88617500CA01FB /* Property List1.plist in Resources */,
 				7A0AF52E1C881D0200CA01FB /* Assets.xcassets in Resources */,
 				7A694BC11C8AC89700597936 /* Xiaobian.plist in Resources */,
 				7A0AF5581C881EB600CA01FB /* Cartoon.storyboard in Resources */,
 				7A0AF55C1C881ED200CA01FB /* Mine.storyboard in Resources */,
+				7ABA52BE1C8E611300EE5E59 /* LICENSE in Resources */,
+				7ABA52C71C8E691900EE5E59 /* ProgressHUD.bundle in Resources */,
 				7A0AF55E1C881EE800CA01FB /* PrettyPictures.storyboard in Resources */,
 				7A0AF55A1C881EC600CA01FB /* Message.storyboard in Resources */,
 				7A694BAD1C8A8FE600597936 /* Leibie.plist in Resources */,
 				7A74422B1C896760007EA8BD /* Property List.plist in Resources */,
+				7ABA52BA1C8E611300EE5E59 /* install.png in Resources */,
 				7A93D8661C8C5696006EBB1C /* MJRefresh.bundle in Resources */,
+				7AEB96CD1C8FF6CD006603B0 /* Login.storyboard in Resources */,
+				7AFD1E0F1C8ED40B0050A1B7 /* Storyboard.storyboard in Resources */,
+				7AB4E50C1C8F0D6400B64893 /* CartoonsCollectionViewCell.xib in Resources */,
+				7AEB97041C904D3C006603B0 /* PictureCollectionViewCell.xib in Resources */,
 				7A694B9E1C8A851800597936 /* Property List.plist in Resources */,
+				7ABA52BB1C8E611300EE5E59 /* podfile.png in Resources */,
 				7A7442251C8927C4007EA8BD /* blueArrowDown.png in Resources */,
 				7A7442241C8927C4007EA8BD /* blueArrow.png in Resources */,
+				7ABA52BC1C8E611300EE5E59 /* project.png in Resources */,
 				7A74421E1C890844007EA8BD /* MessageTableViewCell.xib in Resources */,
 				7A694BBB1C8AC69700597936 /* Shangjia .plist in Resources */,
 				7A0AF5311C881D0200CA01FB /* LaunchScreen.storyboard in Resources */,
 				7A694BB91C8AB2C300597936 /* CartoonCollectionReusableView.xib in Resources */,
+				7ABA52B91C8E611300EE5E59 /* finish.png in Resources */,
+				7ABA52A91C8E610700EE5E59 /* WeiboSDK.bundle in Resources */,
 				7A0AF5861C88602B00CA01FB /* Property List0.plist in Resources */,
+				7ABA52B61C8E611300EE5E59 /* .gitignore in Resources */,
 				7A93D8241C8C0373006EBB1C /* Renqi.plist in Resources */,
+				7ABA52B71C8E611300EE5E59 /* Bmob_iOS_SDK更新历史.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -807,19 +1016,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A93D8631C8C5696006EBB1C /* MJRefreshGifHeader.m in Sources */,
+				7AEB96D01C900F66006603B0 /* RegisterViewController.m in Sources */,
 				7A0AF54D1C881E5500CA01FB /* MessageViewController.m in Sources */,
 				7A694BAA1C8A85F600597936 /* VOSegment.m in Sources */,
 				7A93D85F1C8C5696006EBB1C /* MJRefreshAutoStateFooter.m in Sources */,
+				7AEB96CB1C8FF6BA006603B0 /* LoginViewController.m in Sources */,
 				7A74421D1C890844007EA8BD /* MessageTableViewCell.m in Sources */,
 				7A7442361C897D17007EA8BD /* UIView+Extenstin.m in Sources */,
 				7A93D8611C8C5696006EBB1C /* MJRefreshBackNormalFooter.m in Sources */,
+				7AEB96D31C9019C4006603B0 /* MyLayout.m in Sources */,
 				7A694BA91C8A85F600597936 /* VOIndicatorAnimation.m in Sources */,
+				7ABA52C81C8E691900EE5E59 /* ProgressHUD.m in Sources */,
+				7AEB970A1C90578D006603B0 /* BLImageSize.m in Sources */,
 				7A93D8691C8C5696006EBB1C /* UIScrollView+MJRefresh.m in Sources */,
 				7A93D8681C8C5696006EBB1C /* UIScrollView+MJExtension.m in Sources */,
 				7A74422E1C89780D007EA8BD /* MessageDetailViewController.m in Sources */,
+				7AFD1E131C8EF6D40050A1B7 /* DetailCollectionViewCell.m in Sources */,
 				7A93D8591C8C5696006EBB1C /* MJRefreshBackFooter.m in Sources */,
 				7A0AF52C1C881D0200CA01FB /* AppDelegate.m in Sources */,
+				7AEB96D91C901E16006603B0 /* PictureDetailViewController.m in Sources */,
 				7A93D8601C8C5696006EBB1C /* MJRefreshBackGifFooter.m in Sources */,
+				7ABA52BD1C8E611300EE5E59 /* InstallCocoaPods.md in Sources */,
+				7AE59B711C8FBF4500851FD4 /* mangoView.m in Sources */,
 				7A0AF5291C881D0200CA01FB /* main.m in Sources */,
 				7A93D8651C8C5696006EBB1C /* MJRefreshStateHeader.m in Sources */,
 				7A0AF5561C881E9600CA01FB /* PrettyPicturesViewController.m in Sources */,
@@ -829,6 +1047,8 @@
 				7A93D85C1C8C5696006EBB1C /* MJRefreshHeader.m in Sources */,
 				7A694BB81C8AB2C300597936 /* CartoonCollectionReusableView.m in Sources */,
 				7A93D85D1C8C5696006EBB1C /* MJRefreshAutoGifFooter.m in Sources */,
+				7AEB97071C905550006603B0 /* AoiroSoraLayout.m in Sources */,
+				7AEB97031C904D3C006603B0 /* PictureCollectionViewCell.m in Sources */,
 				7A0AF5501C881E7500CA01FB /* MineViewController.m in Sources */,
 				7A93D8271C8C11AF006EBB1C /* CartoonsTwoViewController.m in Sources */,
 				7A7442291C8928CD007EA8BD /* HWTool.m in Sources */,
@@ -842,11 +1062,15 @@
 				7A93D86A1C8C5696006EBB1C /* UIView+MJExtension.m in Sources */,
 				7A93D8581C8C5696006EBB1C /* MJRefreshAutoFooter.m in Sources */,
 				7A93D8671C8C5696006EBB1C /* MJRefreshConst.m in Sources */,
+				7AEB970D1C905F21006603B0 /* DetailViewController.m in Sources */,
+				7AB4E50B1C8F0D6400B64893 /* CartoonsCollectionViewCell.m in Sources */,
+				7ABA52C21C8E683C00EE5E59 /* ShareView.m in Sources */,
 				7A93D85B1C8C5696006EBB1C /* MJRefreshFooter.m in Sources */,
 				7A7442371C897D17007EA8BD /* UIViewController+Common.m in Sources */,
 				7A93D8641C8C5696006EBB1C /* MJRefreshNormalHeader.m in Sources */,
 				7A7442261C8927C4007EA8BD /* PullingRefreshTableView.m in Sources */,
 				7A0AF58B1C88696500CA01FB /* MessageModel.m in Sources */,
+				7ABA52BF1C8E611300EE5E59 /* README.md in Sources */,
 				7A694BAB1C8A85F600597936 /* VOSegmentedControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -902,6 +1126,14 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LIBRARY_SEARCH_PATHS = (
+					"<Multiple",
+					"values>",
+					"\"$(SRCROOT)/Cartoon/Library/SDK1.6.2/WXApiObject.h\"",
+					"\"$(SRCROOT)/Cartoon/Library/SDK1.6.2/WXApi.h\"",
+					"\"$(SRCROOT)/Cartoon/Library/SDK1.6.2/WechatAuthSDK.h\"",
+					"\"$(SRCROOT)/Cartoon/Library/SDK1.6.2/libWeChatSDK.a\"",
+				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -939,6 +1171,14 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LIBRARY_SEARCH_PATHS = (
+					"<Multiple",
+					"values>",
+					"\"$(SRCROOT)/Cartoon/Library/SDK1.6.2/WXApiObject.h\"",
+					"\"$(SRCROOT)/Cartoon/Library/SDK1.6.2/WXApi.h\"",
+					"\"$(SRCROOT)/Cartoon/Library/SDK1.6.2/WechatAuthSDK.h\"",
+					"\"$(SRCROOT)/Cartoon/Library/SDK1.6.2/libWeChatSDK.a\"",
+				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -950,11 +1190,20 @@
 			baseConfigurationReference = C8F69CDB9778583798406AD9 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Cartoon/Library/bmob-ios-sdk",
+				);
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = /Users/scjy/Desktop/Cartoons/Cartoon/Cartoon/Tool/PrefixHeader.pch;
 				INFOPLIST_FILE = Cartoon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Cartoon/Library/libWeiboSDK",
+					"$(PROJECT_DIR)/Cartoon/Library/SDK1.6.2",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.apple.Cartoon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -965,11 +1214,20 @@
 			baseConfigurationReference = 6802CC61DE60A33945EDF540 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Cartoon/Library/bmob-ios-sdk",
+				);
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = /Users/scjy/Desktop/Cartoons/Cartoon/Cartoon/Tool/PrefixHeader.pch;
 				INFOPLIST_FILE = Cartoon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Cartoon/Library/libWeiboSDK",
+					"$(PROJECT_DIR)/Cartoon/Library/SDK1.6.2",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.apple.Cartoon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

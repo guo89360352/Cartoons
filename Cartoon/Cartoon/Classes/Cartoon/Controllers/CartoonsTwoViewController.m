@@ -73,8 +73,13 @@
         _pageCount +=1;
         self.refreshing = NO;
         [self.collectionV.mj_footer endRefreshing];
-        [self requestCartoonsList];
-
+        if (self.cartoonsType == CartoonsTypeList) {
+            [self requestCartoonsList];
+            
+        }else {
+            
+            [self requestCartoonsBangdan];
+        }
     }];
 
 }
@@ -169,10 +174,13 @@
 }
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
     
-    CartoonsDetailViewController *detailView = [[CartoonsDetailViewController alloc] init];
+    UIStoryboard *sb=[UIStoryboard storyboardWithName:@"Storyboard" bundle:nil];
+    CartoonsDetailViewController *cartoon=[sb instantiateViewControllerWithIdentifier:@"zhang"];
+    
+//    CartoonsDetailViewController *detailView = [[CartoonsDetailViewController alloc] init];
     CartoonModel *moel = self.listArray[indexPath.row];
-    detailView.cartoonsId = moel.cartoonsId;
-    [self.navigationController pushViewController:detailView animated:NO];
+    cartoon.cartoonsId = moel.cartoonsId;
+    [self.navigationController pushViewController:cartoon animated:NO];
     
     
 }

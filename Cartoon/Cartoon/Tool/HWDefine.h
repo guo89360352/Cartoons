@@ -22,7 +22,11 @@ typedef NS_ENUM(NSInteger,CartoonsType) {
 //http://api.playsm.com/index.php?chapterId=10158&isSize=1&page=1&orderType=1&r=cartoonChapter%2FalbumList&size=10&
 //http://api.playsm.com/index.php?chapterId=10801&isSize=1&page=1&orderType=1&r=cartoonChapter%2FalbumList&size=10&
 //http://api.playsm.com/index.php?chapterId=8995&isSize=1&page=1&orderType=1&r=cartoonChapter%2FalbumList&size=10&
+
+
+
 #define kCapter @"http://api.playsm.com/index.php?isSize=1&page=1&orderType=1&r=cartoonChapter%2FalbumList&size=10&"
+
 //chapterId=8995&
 #define kCartoons @"http://api.playsm.com/index.php?&r=cartoonSet%2Fdetail&"
 //id=325
@@ -31,6 +35,7 @@ typedef NS_ENUM(NSInteger,CartoonsType) {
 #define kM @"http://api.playsm.com/index.php?page=1&r=message%2Flist&size=10&"
 #define kMe @"http://api.playsm.com/index.php"
 #define kPrrttyPic @"http://api.playsm.com/index.php?r=prettyImages%2FgetLabelList&"
+
 #define kCartoon @"http://api.playsm.com/index.php?page=1"
 //&r=recommend%2FgetUserRecommendList&size=999
 
@@ -54,7 +59,9 @@ typedef NS_ENUM(NSInteger,CartoonsType) {
 #define kShoucang @"http://api.playsm.com/index.php?id=4&page=1&r=cartoonBillBoard%2FgetCartoonSetListByBillBoard&size=12&"
 #define kkkk @"http://api.playsm.com/index.php?id=12&page=1&r=cartoonBillBoard%2FgetCartoonSetListByBillBoard&size=12&"
 
-#define kLieiBie @"http://api.playsm.com/index.php?page=1&r=cartoonCategory%2FgetCartoonSetListByCategory&size=12&"
+#define kLieiBie @"http://api.playsm.com/index.php?r=cartoonCategory%2FgetCartoonSetListByCategory&size=12&"
 
+#define kPic @"http://api.playsm.com/index.php?lastCount=240&page=1&r=prettyImages%2Flist&"
+//searchLabel=%E5%8F%A4%E9%A3%8E&
 
 #endif /* HWDefine_h */

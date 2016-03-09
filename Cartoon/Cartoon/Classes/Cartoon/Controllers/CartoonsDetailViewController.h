@@ -16,5 +16,16 @@
 @property (nonatomic, strong) CartoonModel *model;
 
 
+@property (weak, nonatomic) IBOutlet UIImageView *coverImage;
+@property (weak, nonatomic) IBOutlet UILabel *authorLabel;
+
+@property (weak, nonatomic) IBOutlet UILabel *timeLabel;
+
+@property (weak, nonatomic) IBOutlet UILabel *gengxinLabel;
+@property (weak, nonatomic) IBOutlet UIButton *shouBtn;
+@property (weak, nonatomic) IBOutlet UIButton *luBtn;
+@property (weak, nonatomic) IBOutlet UILabel *contentLabel;
+@property (weak, nonatomic) IBOutlet UIButton *muluBtn;
+@property (weak, nonatomic) IBOutlet UIButton *pinglunBtn;
 
 @end

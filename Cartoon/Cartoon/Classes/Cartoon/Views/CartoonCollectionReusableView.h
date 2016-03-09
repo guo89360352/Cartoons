@@ -23,4 +23,8 @@
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 @property (weak, nonatomic) IBOutlet UIButton *shouCangBtn;
 
+@property (weak, nonatomic) IBOutlet UIButton *muluBtn;
+
+@property (weak, nonatomic) IBOutlet UIButton *pinglunBtn;
+
 @end

@@ -30,8 +30,11 @@
         self.totalChapterCount = dic[@"totalChapterCount"];
         self.updateInfo = dic[@"updateInfo"];
         self.updateValue = dic[@"updateValueLabel"];
-        
-        
+        self.content = dic[@"content"];
+        self.informCount = dic[@"informCount"];
+        self.imgHeight = dic[@"imgHeight"];
+        self.imgWidth = dic[@"imgWidth"];
+        self.size = CGSizeMake([dic[@"height"] floatValue], [dic[@"width"] floatValue]);
         
     }
 
